@@ -1,0 +1,19 @@
+body {
+	background-color: #ECEDE8;
+	}
+
+	h1, p {
+		color: #71567A;
+	}
+
+	a {
+		color: gray;
+		}
+
+		a:hover {
+			color: white;
+			}
+
+	h1, p {
+		text-align: center;
+		}
