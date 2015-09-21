@@ -1,19 +1,11 @@
 body {
 	background-color: #ECEDE8;
-	}
-
-	h1, p {
-		color: #71567A;
-	}
-
-	a {
-		color: gray;
-		}
-
-		a:hover {
-			color: white;
-			}
-
-	h1, p {
-		text-align: center;
-		}
+	color: #71567A;
+	text-align: center;
+}
+a {
+	color: gray;
+}
+a:hover {
+	color: white;
+}
