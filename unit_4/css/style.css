@@ -1,0 +1,60 @@
+body {
+	color: #131313;
+	text-align: left;
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+}
+h1 {
+	font-size: 6em;
+	font-weight: 600;
+}
+h2, nav, .socialmedia, .index_name, .link, .credit, .category {
+	font-family: "Futura PT", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+h2, .category {
+	font-weight: 700;
+	text-decoration: underline;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #febb86;
+}
+ul {
+	list-style: none
+}
+#bars {
+	color: #febb86;
+}
+.block1 {
+	background-color: #d1b3b2;
+}
+.block2 {
+	background-color: #dadbd5;
+}
+.index_name {
+	color: #febb86;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: right;
+}
+.issue_theme {
+	font-size: 35px;
+}
+.category {
+	text-decoration: underline;
+}
+.quote {
+	font-size: 22px;
+}
+.credit {
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
