@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	font-family: "Bodoni URW", serif;
 	font-size: 16px;
@@ -6,27 +11,34 @@ body {
 	letter-spacing: .1em;
 }
 h1 {
-	font-size: 2em;
+	font-size: 50px;
+	font-weight: 200;
+	padding: .5em 0 .3em 0;
 }
 h2, ul, a {
 	font-family: "Brandon Grotesque", sans-serif;
 	font-size: 1em;
 	font-weight: 100;
 	text-transform: uppercase;
-}
-p {
-	font-weight: 300;
-	font-size: .5em;
-	line-height: 1.5em;
-	max-width: 750px;
-	text-align: justify;
-	margin: 0 auto;
-	padding: 2em;
+	padding: 5em 0 1.2em 0;
+	border-bottom: 1px solid black;
+  	display: inline-block;
 }
 .quote {
 	font-size: 2em;
 	line-height: 1.5em;
 	text-align: center;
+}
+.articletext {
+	text-align: justify;
+}
+p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 750px;
+	margin: 0 auto;
+	padding: 2em;
 }
 ul {
 	list-style: none;
@@ -38,7 +50,8 @@ div{
 	padding: 1em;
 }
 hr {
-	width: 200px
+	width: 100px
+	align: center;
 }
 a {
 	text-decoration: none;
@@ -47,12 +60,20 @@ a {
 img {
 	width: 750px;
 }
-#wrapper1 {
+.wrapper1 {
 	background-color: #EDE8DD;
 }
-#wrapper2 {
+.wrapper2 {
 	background-color: #E8E9ED;
 }
-#wrapper3 {
+.wrapper3 {
 	background-color: #EDECE8;
+	}
+#logo {
+	width: 30%;
+}
+footer {
+	text-align: center;
+	font-size: 1em;
+	padding: 3em;
 }

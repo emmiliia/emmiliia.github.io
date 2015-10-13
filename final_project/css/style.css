@@ -33,12 +33,15 @@ a:hover {
 ul {
 	list-style: none
 }
-#wrapper1 {
+img {
+	width: 60%;
+}
+.wrapper1 {
 	background-color: #d1b3b2;
 	margin: 5em 0em 5em 5em;
 	padding: 5em
 }
-#wrapper2 {
+.wrapper2 {
 	background-color: #dadbd5;
 	margin: 5em 0em 5em 5em;
 	padding: 5em;
