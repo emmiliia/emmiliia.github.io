@@ -1,0 +1,58 @@
+body {
+	font-family: "Bodoni URW", serif;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	letter-spacing: .1em;
+}
+h1 {
+	font-size: 2em;
+}
+h2, ul, a {
+	font-family: "Brandon Grotesque", sans-serif;
+	font-size: 1em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+p {
+	font-weight: 300;
+	font-size: .5em;
+	line-height: 1.5em;
+	max-width: 750px;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 2em;
+}
+.quote {
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+}
+div{
+	padding: 1em;
+}
+hr {
+	width: 200px
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	width: 750px;
+}
+#wrapper1 {
+	background-color: #EDE8DD;
+}
+#wrapper2 {
+	background-color: #E8E9ED;
+}
+#wrapper3 {
+	background-color: #EDECE8;
+}

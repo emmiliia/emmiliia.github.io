@@ -9,9 +9,9 @@ body {
 }
 h1 {
 	font-size: 6em;
-	font-weight: 600;
+	font-weight: 700;
 }
-h2, nav, .socialmedia, .index_name, .link, .credit, .category {
+h2, nav, .index_name, .link, .credit, .category, ul {
 	font-family: "Futura PT", sans-serif;
 	font-size: 1em;
 	font-weight: 400;
@@ -19,6 +19,9 @@ h2, nav, .socialmedia, .index_name, .link, .credit, .category {
 h2, .category {
 	font-weight: 700;
 	text-decoration: underline;
+}
+span {
+	font-style: italic;
 }
 a {
 	color: #000;
@@ -30,14 +33,18 @@ a:hover {
 ul {
 	list-style: none
 }
+#wrapper1 {
+	background-color: #d1b3b2;
+	margin: 5em 0em 5em 5em;
+	padding: 5em
+}
+#wrapper2 {
+	background-color: #dadbd5;
+	margin: 5em 0em 5em 5em;
+	padding: 5em;
+}
 #bars {
 	color: #febb86;
-}
-.block1 {
-	background-color: #d1b3b2;
-}
-.block2 {
-	background-color: #dadbd5;
 }
 .index_name {
 	color: #febb86;
@@ -55,6 +62,5 @@ ul {
 	font-size: 22px;
 }
 .credit {
-	font-size: 0.7em;
-	text-transform: uppercase;
+	font-variant: small-caps
 }
