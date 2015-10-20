@@ -28,7 +28,7 @@ h2, ul, a {
 	font-size: 24px;
 	line-height: 1.5em;
 	text-align: center;
-	padding: 2em 0 0 0;
+	padding: 1.1em 0 2em 0;
 }
 .bold {
 	font-style: bold;
@@ -36,17 +36,22 @@ h2, ul, a {
 .articletext {
 	text-align: justify;
 }
+.display {
+	font-style: italic;
+}
+.upper {
+	text-transform: uppercase;
+}
 p {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.5em;
 	width: 750px;
 	margin: 0 auto;
-	padding: 2em;
 }
 .post {
 	text-align: justify;
-	padding: 4em;
+	padding: .5em;
 	width: 800px;
 }
 ul {
@@ -68,7 +73,7 @@ a {
 }
 img {
 	width: 750px;
-	padding:.2em;
+	padding: 1.1em;
 }
 .wrapper1 {
 	background-color: #EDE8DD;
