@@ -12,33 +12,44 @@ body {
 	letter-spacing: 2px;
 }
 h1 {
-	font-size: 2em
-	padding: 2em;
+	font-size: 2em;
 }
 h2, h3, h4 {
 	font-weight: 300;
 	padding: 1em;
 }
 p {
-	padding: 1em;
+	padding: 1.25em;
+	width: 70%;
+	margin: 0 auto;
 }
 a {
 	color: #000;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 nav {
-	background: #d6cece;
+	background: #f9f9f9;
 	padding: 1.5em;
+}
+span {
+	font-weight: 800;
+}
+footer {
+	background: #f9f9f9;
+	padding: 2em;
 }
 #home {
 	background: #c4d3ec;
-	width: 50%;
+	width: 100%;
 	padding: 2em;
 	float: left;
 }
 #contact {
-	background: #fde0d0;
-	width: 50%;
+	background: #015663;
+	width: 100%;
 	padding: 2em;
 	float: left;
 }
@@ -46,13 +57,28 @@ nav {
 	width: 100%;
 	padding: 2em;
 	float: left;
-	background: #e09eb3;
+	background: #d6cece;
 }
 #resume {
-	background: #a9d7d1;
+	background: #d8c6b7;
 	width: 100%;
 	padding: 2em;
 	float: left;
+}
+.images {
+	width: 50%;
+	float: left;
+}
+img {
+	width: 50%;
+}
+.testimonials {
+	width: 50%;
+	float: left;
+	background-color: #f9c9bb;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-style: italic;
 }
 .clearfix:after {
 	visibility: hidden;

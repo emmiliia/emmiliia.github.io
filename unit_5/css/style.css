@@ -5,37 +5,39 @@
 body {
 	color: #353434;
 	text-align: center;
-	font-family: "Futura PT", sans-serif;
-	font-size: 20px;
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 2px;
     background: url("../images/inkdots.jpg");
     padding: 1em;
-    margin: .5em;
+    margin: .25em;
 }
 nav {
-	font-family: "Adobe Caslon Pro", serif;
-	font-size: 2em;
-	font-weight: 400;
-	float: left;
-	padding: 1em;
-	width: 60%;
-	margin: 0 auto;
-}
-#title {
-	font-family: "Futura PT", sans-serif;
-	font-size: 0.75em;
 	font-weight: 800;
 }
+nav a {
+	display: block;
+	float: right;
+	padding: 1.25em;
+}
+.name {
+	font-size: 1em;
+	font-weight: 800;
+	float: left;
+	display: block;
+	color: #343535;
+	padding: 1.25em;
+}
 h1 {
-	font-family: "Adobe Caslon Pro", serif;
 	font-size: 3em;
 	font-weight: 900;
 	color: #00333b;
-	padding: .5em;
+	padding: 1em;
 }
 h2, h3, .issue_theme {
+	font-family: "Futura PT", sans-serif;
 	font-size: 1.2em;
 	font-weight: 100;
 	padding: 1em;
@@ -59,11 +61,13 @@ ul {
 	list-style: none
 }
 p {
-	font-family: "Adobe Caslon Pro", serif;
 	text-align: justify;
 	padding: 1em 0em;
 	width: 60%;
 	margin: 0 auto;
+}
+.hero {
+	width: 100%;
 }
 img {
 	width: 60%;
