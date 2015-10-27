@@ -33,6 +33,8 @@ a:hover {
 nav {
 	background: #f9f9f9;
 	padding: 1.5em;
+	position: fixed;
+	width: 100%;
 }
 span {
 	font-weight: 800;
@@ -45,36 +47,27 @@ footer {
 	background: #c4d3ec;
 	width: 100%;
 	padding: 2em;
-	float: left;
 }
 #contact {
 	background: #015663;
 	width: 100%;
 	padding: 2em;
-	float: left;
 }
 #about {
 	width: 100%;
 	padding: 2em;
-	float: left;
 	background: #d6cece;
 }
 #resume {
 	background: #d8c6b7;
 	width: 100%;
 	padding: 2em;
-	float: left;
-}
-.images {
-	width: 50%;
-	float: left;
 }
 img {
 	width: 50%;
 }
 .testimonials {
-	width: 50%;
-	float: left;
+	width: 100%;
 	background-color: #f9c9bb;
 	font-size: 2.5em;
 	line-height: 1.5em;
