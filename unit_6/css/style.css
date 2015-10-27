@@ -1,0 +1,64 @@
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	color: #000;
+	text-align: center;
+	font-family: "Futura PT", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+}
+h1 {
+	font-size: 2em
+	padding: 2em;
+}
+h2, h3, h4 {
+	font-weight: 300;
+	padding: 1em;
+}
+p {
+	padding: 1em;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+nav {
+	background: #d6cece;
+	padding: 1.5em;
+}
+#home {
+	background: #c4d3ec;
+	width: 50%;
+	padding: 2em;
+	float: left;
+}
+#contact {
+	background: #fde0d0;
+	width: 50%;
+	padding: 2em;
+	float: left;
+}
+#about {
+	width: 100%;
+	padding: 2em;
+	float: left;
+	background: #e09eb3;
+}
+#resume {
+	background: #a9d7d1;
+	width: 100%;
+	padding: 2em;
+	float: left;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font:size 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

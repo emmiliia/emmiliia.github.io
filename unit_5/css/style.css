@@ -1,8 +1,6 @@
 * { margin:0;
 	padding:0;
-	box-sizing:border-box; 
-	transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
-    transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+	box-sizing:border-box;
 }
 body {
 	color: #353434;
@@ -12,24 +10,37 @@ body {
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 2px;
-    background: url("../images/pattern.png");
-    padding: 2em;
-    margin: 5em;
+    background: url("../images/inkdots.jpg");
+    padding: 1em;
+    margin: .5em;
+}
+nav {
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 2em;
+	font-weight: 400;
+	float: left;
+	padding: 1em;
+	width: 60%;
+	margin: 0 auto;
+}
+#title {
+	font-family: "Futura PT", sans-serif;
+	font-size: 0.75em;
+	font-weight: 800;
 }
 h1 {
+	font-family: "Adobe Caslon Pro", serif;
 	font-size: 3em;
 	font-weight: 900;
-	color: #641c5e;
-	padding: 1em;
+	color: #00333b;
+	padding: .5em;
 }
 h2, h3, .issue_theme {
 	font-size: 1.2em;
 	font-weight: 100;
-	color: #4153fb;
 	padding: 1em;
 }
 h3 {
-	color: #0119fd;
 	font-size: .8em;
 	text-transform: uppercase;
 }
@@ -42,7 +53,7 @@ a {
 	font-weight: 900;
 }
 a:hover {
-	color: #fdad01;
+	color: #f9ad81;
 }
 ul {
 	list-style: none
@@ -50,10 +61,12 @@ ul {
 p {
 	font-family: "Adobe Caslon Pro", serif;
 	text-align: justify;
-	padding: 1em 2em;
+	padding: 1em 0em;
+	width: 60%;
+	margin: 0 auto;
 }
 img {
-	width: 40%;
+	width: 60%;
 }
 img:hover {
 	background-color: #fdad01;
@@ -71,4 +84,12 @@ img:hover {
 .wrapper {
 	background-color: #f5f5f5;
 	margin: 1em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
