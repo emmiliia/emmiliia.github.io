@@ -1,0 +1,73 @@
+* { margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	color: #343535;
+	text-align: left;
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 1.5em;
+	letter-spacing: 1.5px;
+	padding: 2em;
+}
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+h2 {
+	font-family: "Futura PT";
+	font-weight: 800;
+	font-size: 6em;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding: 1em;
+}
+h3 {
+	font-size: 1em;
+}
+nav {
+	float: right;
+}
+nav a {
+	display: block;
+	text-align: right;
+}
+a {
+	color: #353434;
+	text-decoration: none;
+}
+a:hover {
+	color: #7f99be;
+
+}
+.name {
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	padding: 1em;
+}
+#logoarea {
+	float: left;
+	display: block;
+}
+.content {
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	width: 60%;
+}
+.hero {
+	width: 60%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
