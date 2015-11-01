@@ -1,0 +1,96 @@
+* { margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #343535;
+	text-align: center;
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 1.5px;
+	padding: 2em;
+}
+h1 {
+	font-family: "Futura PT";
+	font-size: 6em;
+	font-weight: 800;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: "Futura PT";
+	font-weight: 800;
+	font-size: 1em;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding: 1em;
+}
+nav {
+}
+nav a {
+	display: block;
+	text-transform: uppercase;
+}
+a {
+	color: #353434;
+	text-decoration: none;
+}
+a:hover {
+	color: #7f99be;
+
+}
+.name {
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 1em;
+}
+.theme {
+	font-style: italic;
+	font-size: 1.25em;
+	padding: 4em;
+}
+article {
+	width: 33.33%;
+	float: left;
+}
+section {
+	height:100vh;
+    background-color: #e8e5c8;
+    position: relative;
+}
+img {
+	width: inherit;
+}
+#wrapper {
+    background-color: #f5f5f5;
+    position: relative;
+    width:90%;
+    height:100%;
+    padding:5% 0 0;
+    margin: auto;
+    color:#333;
+    text-align:center;
+}
+#half {
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:50%;
+    background-color: #353434;
+}
+footer {
+	padding: 5em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
