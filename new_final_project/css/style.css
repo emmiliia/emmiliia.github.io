@@ -108,6 +108,11 @@ aside {
 	float: left;
 	padding: 5%;
 }
+#archive div {
+	width: 50%;
+	padding-bottom: 2%;
+	margin: 0 auto;
+}
 footer {
 	padding: 1em;
 	background-color: #e8ccbe;
