@@ -53,6 +53,7 @@ p a {
 	color: #757575;
 }
 .name {
+	font-family: "Adobe Caslon Pro", serif;
 	font-size: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
