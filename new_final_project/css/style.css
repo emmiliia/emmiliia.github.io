@@ -17,14 +17,14 @@ p {
 h1 {
 	font-family: "Futura PT";
 	font-size: 5em;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 1em;
 	text-transform: uppercase;
 	padding-bottom: 1em;
 }
 h2 {
 	font-family: "Futura PT";
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 1em;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -53,7 +53,6 @@ p a {
 	color: #757575;
 }
 .name {
-	font-family: "Adobe Caslon Pro", serif;
 	font-size: 1em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -122,7 +121,7 @@ footer {
 footer a {
 	text-transform: uppercase;
 	font-family: "Futura PT", sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	padding: 1em;
 }
 footer a:hover {
