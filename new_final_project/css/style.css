@@ -90,7 +90,7 @@ aside {
 	line-height: 1.5em;
 	float: right;
 	width: 30%;
-	padding: 0 5 5 0%;
+	padding: 0 30 5 0%;
 }
 footer {
 	padding: 1em;
@@ -101,6 +101,9 @@ footer a {
 	font-family: "Futura PT", sans-serif;
 	font-weight: 800;
 	padding: 1em;
+}
+footer a:hover {
+	color: #fff;
 }
 footer img {
 	max-width: 20%;
