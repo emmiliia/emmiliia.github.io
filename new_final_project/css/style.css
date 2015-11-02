@@ -1,6 +1,6 @@
-* { margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 body {
 	color: #343535;
@@ -10,7 +10,6 @@ body {
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 1.5px;
-	padding: 2em;
 }
 h1 {
 	font-family: "Futura PT";
@@ -18,6 +17,7 @@ h1 {
 	font-weight: 800;
 	line-height: 1em;
 	text-transform: uppercase;
+	padding-top: 1em;
 }
 h2 {
 	font-family: "Futura PT";
@@ -26,6 +26,12 @@ h2 {
 	text-transform: uppercase;
 	line-height: 1em;
 	padding: 1em;
+}
+h3 {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1em;
+	padding-bottom: 1em;
 }
 nav {
 }
@@ -51,26 +57,29 @@ a:hover {
 .theme {
 	font-style: italic;
 	font-size: 1.25em;
-	padding: 4em;
+	padding: 5em 0;
+	width: 70%;
+	margin: 0 auto;
 }
-.teaser {
-	width: 33.33%;
-	padding: 10 5 10 5%;
+#teasers div {
+	width: 30%;
+	padding: 2.5%;
 	float: left;
+}
+.highlight {
+	color: #e8e5c8;
 }
 img {
 	width: 100%;
 }
-section {
-	height:100vh;
+#halftwo {
     background-color: #e8e5c8;
     position: relative;
 }
 #wrapper {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     position: relative;
     width:90%;
-    height:100%;
     padding:5% 0 0;
     margin: auto;
     color:#333;
@@ -80,12 +89,42 @@ section {
     position: absolute;
     top:0;
     left:0;
-    height:100%;
     width:50%;
+    height: 100%;
     background-color: #353434;
+}
+article div {
+	width: 56%;
+	padding: 4%; 
+	float: left;
+	text-align: justify
+}
+aside {
+	text-align: left;
+	font-size: 3em;
+	line-height: 1.5em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
+aside img {
+	padding-top: 10%;
 }
 footer {
 	padding: 5em;
+}
+footer a {
+	text-transform: uppercase;
+	font-family: "Futura PT", sans-serif;
+	font-weight: 800;
+	padding: 1em;
+}
+footer img {
+	max-width: 20%;
+	padding: 2em;
+}
+#copyright {
+	padding: 2em;
 }
 .clearfix:after {
     visibility: hidden;
