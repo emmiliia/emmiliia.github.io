@@ -44,6 +44,7 @@ nav {
 nav a {
 	display: block;
 	text-transform: uppercase;
+	letter-spacing: 0.15em;
 }
 a {
 	color: #353434;
@@ -59,6 +60,7 @@ p a {
 	font-family: "Adobe Caslon Pro", serif;
 	font-size: 1em;
 	font-weight: 400;
+	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	padding: 1em;
 }
