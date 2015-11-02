@@ -47,8 +47,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #c1cbc2;
-
+	color: #98b6c3;
 }
 .name {
 	font-family: "Adobe Caslon Pro", serif;
@@ -79,8 +78,8 @@ img {
 	padding: 5%;
 }
 article div {
-	width: 60%;
-	padding: 0 0 5 5%; 
+	width: 70%;
+	padding: 0% 10% 5% 5%; 
 	float: left;
 	text-align: justify;
 }
@@ -88,9 +87,9 @@ aside {
 	text-align: left;
 	font-size: 2em;
 	line-height: 1.5em;
-	float: right;
+	float: left;
 	width: 30%;
-	padding: 0 30 5 0%;
+	padding-right: 5%;
 }
 footer {
 	padding: 1em;
