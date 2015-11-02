@@ -58,12 +58,6 @@ p a {
 	font-weight: 400;
 	text-transform: uppercase;
 	padding: 1em;
-	position: fixed;
-	display: block;
-	width: 90%;
-	hight: 20px;
-	float: left;
-	background-color: #fff;
 }
 .theme {
 	font-style: italic;
@@ -115,7 +109,7 @@ aside {
 	padding: 5%;
 }
 #archive div {
-	width: 50%;
+	width: 60%;
 	padding-bottom: 2%;
 	margin: 0 auto;
 }
