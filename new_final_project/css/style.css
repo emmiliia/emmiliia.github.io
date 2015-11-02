@@ -43,11 +43,14 @@ nav a {
 	text-transform: uppercase;
 }
 a {
-	color: #888787;
+	color: #353434;
 	text-decoration: none;
 }
 a:hover {
 	color: #98b6c3;
+}
+p a {
+	color: #757575;
 }
 .name {
 	font-family: "Adobe Caslon Pro", serif;
