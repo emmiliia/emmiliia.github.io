@@ -58,6 +58,12 @@ p a {
 	font-weight: 400;
 	text-transform: uppercase;
 	padding: 1em;
+	position: fixed;
+	display: block;
+	width: 90%;
+	hight: 20px;
+	float: left;
+	background-color: #fff;
 }
 .theme {
 	font-style: italic;
