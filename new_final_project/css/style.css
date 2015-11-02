@@ -113,6 +113,9 @@ aside {
 	padding-bottom: 2%;
 	margin: 0 auto;
 }
+#gallery div {
+	width: 50%
+}
 footer {
 	padding: 1em;
 	background-color: #e8ccbe;
