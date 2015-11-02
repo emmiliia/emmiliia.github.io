@@ -11,9 +11,12 @@ body {
 	line-height: 1.5em;
 	letter-spacing: 1.5px;
 }
+p {
+	padding-bottom: 1em;
+}
 h1 {
 	font-family: "Futura PT";
-	font-size: 6em;
+	font-size: 5em;
 	font-weight: 800;
 	line-height: 1em;
 	text-transform: uppercase;
@@ -44,7 +47,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #7f99be;
+	color: #c1cbc2;
 
 }
 .name {
@@ -72,6 +75,40 @@ a:hover {
 img {
 	width: 100%;
 }
+#hero {
+	padding: 5%;
+}
+article div {
+	width: 60%;
+	padding: 0 0 5 5%; 
+	float: left;
+	text-align: justify;
+}
+aside {
+	text-align: left;
+	font-size: 2em;
+	line-height: 1.5em;
+	float: right;
+	width: 30%;
+	padding: 0 5 5 0%;
+}
+footer {
+	padding: 1em;
+	background-color: #e8ccbe;
+}
+footer a {
+	text-transform: uppercase;
+	font-family: "Futura PT", sans-serif;
+	font-weight: 800;
+	padding: 1em;
+}
+footer img {
+	max-width: 20%;
+	padding: 1em;
+}
+#copyright {
+	padding: 2em;
+}
 #halftwo {
     background-color: #e8e5c8;
     position: relative;
@@ -92,39 +129,6 @@ img {
     width:50%;
     height: 100%;
     background-color: #353434;
-}
-article div {
-	width: 56%;
-	padding: 4%; 
-	float: left;
-	text-align: justify
-}
-aside {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1.5em;
-	float: right;
-	width: 36%;
-	padding: 4%;
-}
-aside img {
-	padding-top: 10%;
-}
-footer {
-	padding: 5em;
-}
-footer a {
-	text-transform: uppercase;
-	font-family: "Futura PT", sans-serif;
-	font-weight: 800;
-	padding: 1em;
-}
-footer img {
-	max-width: 20%;
-	padding: 2em;
-}
-#copyright {
-	padding: 2em;
 }
 .clearfix:after {
     visibility: hidden;
