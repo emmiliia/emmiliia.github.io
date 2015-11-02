@@ -66,11 +66,6 @@ p a {
 	width: 70%;
 	margin: 0 auto;
 }
-#teasers div {
-	width: 30%;
-	padding: 2.5%;
-	float: left;
-}
 .highlight {
 	color: #e8e5c8;
 }
@@ -97,8 +92,12 @@ aside {
 	width: 30%;
 	padding-right: 5%;
 }
+#column {
+	width: 95%;
+	margin: 0 auto;
+}
 #column div {
-	width: 30%;
+	width: 33.33%;
 	padding: 2.5%;
 	float: left;
 }
