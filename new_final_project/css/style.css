@@ -114,6 +114,42 @@ aside {
 #gallery div {
 	width: 50%
 }
+#articleflow {
+	width: 60%;
+	padding-left: 5%;
+}
+#articleflow div {
+	float: left;
+	width: 50%;
+}
+#previous {
+	border-right: 1px solid black; 
+}
+#next{
+	border-left: 1px solid black; 
+}
+#arrowleft {
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid black;
+	display: none;
+}
+#arrowright {
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid black;
+	display: none;
+}
+#arrowleft a:hover {
+	display: block;
+}
+#arrowright a:hover {
+	display: block;
+}
 footer {
 	padding: 1em;
 	background-color: #e8ccbe;
