@@ -147,7 +147,7 @@ footer img {
 	color: #e8e5c8;
 	text-transform: uppercase;
     position: relative;
-    top:45%;
+    top:49%;
     z-index: 5;
     transform: rotate (-90deg);
 }
@@ -164,7 +164,7 @@ footer img {
 	color: #353434;
 	text-transform: uppercase;
     position: relative;
-    top:45%;
+    top:49%;
     z-index: 5;
 	transform: rotate (90deg);
 }
