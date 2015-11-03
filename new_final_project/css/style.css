@@ -149,7 +149,7 @@ footer img {
     position: relative;
     top:45%;
     z-index: 5;
-    transform: rotate (270deg);
+    transform: rotate (-90deg);
 }
 #yellow {
     background-color: #e8e5c8;
@@ -166,7 +166,7 @@ footer img {
     position: relative;
     top:45%;
     z-index: 5;
-	text-transform: rotate (90deg);
+	transform: rotate (90deg);
 }
 #wrapper {
     background-color: #ffffff;
