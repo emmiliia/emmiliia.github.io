@@ -120,8 +120,8 @@ aside {
 	padding-bottom: 5%;
 }
 #articleflow div {
-	float: left;
 	width: 50%;
+	float: left;
 }
 #previous {
 	border-right: 1px solid black;
