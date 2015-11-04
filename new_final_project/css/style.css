@@ -115,19 +115,19 @@ aside {
 	width: 50%
 }
 #articleflow {
-	width: 60%;
-	padding-left: 5%;
-	margin-bottom: 5%;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 5%;
 }
 #articleflow div {
 	float: left;
 	width: 50%;
 }
 #previous {
-	border-right: 1px solid black; 
+	border-right: 1px solid black;
 }
 #next{
-	border-left: 1px solid black; 
+	border-left: 1px solid black;
 }
 #arrowleft {
 	width: 0; 
