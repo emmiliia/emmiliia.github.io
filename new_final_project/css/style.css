@@ -68,6 +68,22 @@ p a {
 .highlight {
 	color: #e8e5c8;
 }
+nav a {
+	display: block;
+}
+#about div {
+	width: 50%;
+	text-align: left;
+	float: left;
+	padding: 5%;
+	transform: rotate (90deg);
+}
+#archive div {
+	width: 60%;
+	padding-bottom: 2%;
+	margin: 0 auto;
+	transform: rotate (-90deg);
+}
 img {
 	width: 100%;
 }
@@ -99,17 +115,6 @@ aside {
 	width: 33.33%;
 	padding: 2.5%;
 	float: left;
-}
-#about div {
-	width: 50%;
-	text-align: left;
-	float: left;
-	padding: 5%;
-}
-#archive div {
-	width: 60%;
-	padding-bottom: 2%;
-	margin: 0 auto;
 }
 #gallery div {
 	width: 50%
