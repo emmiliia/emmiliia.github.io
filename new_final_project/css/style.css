@@ -130,7 +130,7 @@ aside {
 	float: left;
 }
 #articleflow div:first-of-type {
-	border-right: 1px solid black;
+	border-right: 2px solid #353434;
 }
 #arrowleft {
 	width: 0; 
@@ -160,8 +160,6 @@ footer {
 }
 footer a {
 	text-transform: uppercase;
-	font-family: "futura-pt", sans-serif;
-	font-weight: 700;
 	padding: 1em;
 }
 footer a:hover {
