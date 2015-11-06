@@ -15,7 +15,7 @@ p {
 	padding-bottom: 1em;
 }
 h1 {
-	font-family: "Futura PT", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-size: 5em;
 	font-weight: 700;
 	line-height: 1em;
@@ -24,7 +24,7 @@ h1 {
 	padding-bottom: 1em;
 }
 h2 {
-	font-family: "Futura PT", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -160,7 +160,7 @@ footer {
 }
 footer a {
 	text-transform: uppercase;
-	font-family: "Futura PT", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
 	padding: 1em;
 }
