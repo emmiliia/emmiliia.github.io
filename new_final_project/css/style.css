@@ -120,19 +120,17 @@ aside {
 	width: 50%
 }
 #articleflow {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	padding-bottom: 5%;
+	padding: 0 5%;
+	margin-bottom: 5%;
 }
 #articleflow div {
 	width: 50%;
 	float: left;
 }
-#previous {
+#articleflow div:first-of-type {
 	border-right: 1px solid black;
-}
-#next{
-	border-left: 1px solid black;
 }
 #arrowleft {
 	width: 0; 
