@@ -116,6 +116,10 @@ aside {
 	padding: 2.5%;
 	float: left;
 }
+#column article {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
 #gallery div {
 	width: 50%
 }
