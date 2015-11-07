@@ -68,6 +68,9 @@ img {
 	width: 100%;
 	padding-bottom: 2em;
 }
+img:hover {
+	opacity: 0.5;
+}
 #heroimage {
 	padding: 0% 10% 5% 10%;
 }
@@ -169,7 +172,7 @@ footer a:hover {
 	color: #fff;
 }
 footer img {
-	max-width: 30%;
+	max-width: 25%;
 	padding: 1em;
 }
 #copyright {
