@@ -258,7 +258,7 @@ footer img {
 	#hero {
 	padding-bottom: 0;
 	}
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
 	#gray {
     background-color: #353434;
     position: fixed;
