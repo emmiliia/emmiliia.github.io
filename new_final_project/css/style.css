@@ -35,7 +35,7 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	padding: 2em 0 2em 0;
+	padding: 0 0 2em 0;
 }
 h3 {
 	font-style: italic;
@@ -65,6 +65,7 @@ p a {
 }
 img {
 	width: 100%;
+	padding-bottom: 2em;
 }
 #heroimage {
 	padding: 0% 10% 5% 10%;
@@ -272,7 +273,6 @@ footer img {
 	float: none;
 	width: 80%;
 	margin: 0 auto;
-	margin-top: 10%;
 	}
 @media only screen and (max-width: 414px) {
 	#gray {
