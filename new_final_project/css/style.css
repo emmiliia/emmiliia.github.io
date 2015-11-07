@@ -325,4 +325,7 @@ footer img {
 	#articleflow div {
 		float: none;
 	}
+	body {
+	padding-top: 10em;
+	}
 }
