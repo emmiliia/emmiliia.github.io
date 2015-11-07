@@ -59,6 +59,7 @@ p a {
 	font-size: 1.25em;
 	letter-spacing: 0.15em;
 	margin: 0 auto;
+	padding: 0;
 }
 .highlight {
 	color: #e8e5c8;
