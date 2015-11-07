@@ -11,9 +11,13 @@ body {
 	line-height: 1.5em;
 	letter-spacing: 1.25px;
 }
+nav a {
+	display: block;
+	letter-spacing: .5em;
+}
 p {
 	font-size: 1em;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
@@ -31,7 +35,7 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	padding: 2em;
+	padding: 2em 0 2em 0;
 }
 h3 {
 	font-style: italic;
@@ -50,14 +54,6 @@ a:hover {
 p a {
 	color: #757575;
 }
-.name {
-	font-family: "Adobe Caslon Pro", serif;
-	font-size: 1em;
-	font-weight: 400;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	padding: 1em;
-}
 .theme {
 	font-style: italic;
 	font-size: 1.25em;
@@ -66,9 +62,6 @@ p a {
 }
 .highlight {
 	color: #e8e5c8;
-}
-nav a {
-	display: block;
 }
 img {
 	width: 100%;
@@ -113,6 +106,17 @@ aside {
 }
 #gallery div {
 	width: 50%
+}
+#about div {
+	width: 50%;
+	text-align: left;
+	float: left;
+	padding: 5%;
+}
+#archive div {
+	width: 60%;
+	padding-bottom: 2%;
+	margin: 0 auto;
 }
 #articleflow {
 	width: 90%;
@@ -179,10 +183,14 @@ footer img {
 #gray a {
 	color: #e8e5c8;
 	text-transform: uppercase;
+	letter-spacing: .5em;
     position: relative;
     top:49%;
     z-index: 5;
     transform: rotate (-90deg);
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
 }
 #yellow {
     background-color: #e8e5c8;
@@ -196,10 +204,26 @@ footer img {
 #yellow a {
 	color: #353434;
 	text-transform: uppercase;
+	letter-spacing: .5em;
     position: relative;
     top:49%;
     z-index: 5;
     transform: rotate (90deg);
+    -webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+}
+#topnav {
+	background-color: #fff;
+	position: relative;
+	top: 0;
+	height: 5%;
+	width: 90%;
+	margin: 0 auto;
+}
+#topnav a {
+	text-transform: uppercase;
+	letter-spacing: .5em;
 }
 #wrapper {
     background-color: #ffffff;
@@ -237,7 +261,7 @@ footer img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5%;
+    height: 3em;
     z-index: 5;
 	}
 	#gray a {
@@ -246,14 +270,18 @@ footer img {
 	top: 30%;
     position: relative;
     z-index: 5;
+    transform: rotate (0deg);
+    -webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
 	}
 	#yellow {
     background-color: #e8e5c8;
     position: fixed;
-    top: 0;
+    top: 0%;
     right: 0;
     width: 100%;
-    height: 10%;
+    height: 6em;
     z-index: 0;
 	}
 	#yellow a {
@@ -262,6 +290,28 @@ footer img {
 	top: 66%;
     position: relative;
     z-index: 5;
+    transform: rotate (0deg);
+    -webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	}
+	#topnav {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	height: 9em;
+	width: 100%;
+	}
+	#topnav a {
+	color: #353434;
+	text-transform: uppercase;
+	top: 77%;
+    position: relative;
+    z-index: 5;
+    transform: rotate (0deg);
+    -webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
 	}
 	#wrapper {
     background-color: #ffffff;
@@ -271,5 +321,8 @@ footer img {
     margin: auto;
     color:#333;
     text-align:center;
+	}
+	#articleflow div {
+		float: none;
 	}
 }
