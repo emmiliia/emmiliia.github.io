@@ -12,7 +12,8 @@ body {
 	letter-spacing: 1.25px;
 }
 p {
-	padding-bottom: 1em;
+	font-size: 1em;
+	padding-bottom: 3em;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
@@ -30,14 +31,14 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	padding: 1em 0em 1em 0em;
+	padding: 2em;
 }
 h3 {
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 0.15em;
-	padding: 1em;
+	padding-bottom: 0.5em;
 }
 a {
 	color: #353434;
@@ -88,14 +89,14 @@ img {
 	width: 100%;
 }
 #heroimage {
-	padding: 0% 5% 5% 5%;
+	padding: 0% 10% 5% 10%;
 }
 #hero {
-	padding: 5%;
+	padding: 10%;
 }
 article div {
-	width: 70%;
-	padding: 0% 10% 5% 5%; 
+	width: 60%;
+	padding: 0% 5% 5% 10%; 
 	float: left;
 	text-align: justify;
 }
@@ -104,27 +105,31 @@ aside {
 	font-size: 2em;
 	line-height: 1.5em;
 	float: left;
-	width: 30%;
-	padding-right: 5%;
+	width: 40%;
+	padding-right: 10%;
 }
-#column {
-	width: 95%;
-	margin: 0 auto;
+#firstcolumn {
+	width: 28.33%;
+	padding: 2.5%;
+	margin-left: 7.5%;
+	float: left;
 }
-#column div {
-	width: 33.33%;
+#secondcolumn {
+	width: 28.33%;
 	padding: 2.5%;
 	float: left;
 }
-#column article {
-	margin-top: 3em;
-	margin-bottom: 3em;
+#thirdcolumn {
+	width: 28.33%;
+	padding: 2.5%;
+	margin-right: 7.5%;
+	float: left;
 }
 #gallery div {
 	width: 50%
 }
 #articleflow {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 0 5%;
 	margin-bottom: 5%;
@@ -232,4 +237,15 @@ footer img {
     content: " ";
     clear: both;
     height: 0;
+}
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 3em;
+	}
+	#firstcolumn, #secondcolumn, #thirdcolumn {
+		float: none;
+		width: 90%;
+		padding: 5%;
+		margin: 0 auto;
+	}
 }
