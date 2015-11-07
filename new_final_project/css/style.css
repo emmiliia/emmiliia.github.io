@@ -76,6 +76,7 @@ article div {
 	width: 45%;
 	margin-left: 10%;
 	margin-right: 5%;
+	margin-bottom: 5%;
 	float: left;
 	text-align: justify;
 }
@@ -258,6 +259,21 @@ footer img {
 	#hero {
 	padding-bottom: 0;
 	}
+	article div {
+	width: 80%;
+	margin: 0 auto;
+	float: none;
+	text-align: justify;
+	}
+	aside {
+	text-align: left;
+	font-size: 2em;
+	line-height: 1.5em;
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	}
 @media only screen and (max-width: 414px) {
 	#gray {
     background-color: #353434;
@@ -331,19 +347,5 @@ footer img {
 	}
 	body {
 	padding-top: 9em;
-	}
-	article div {
-	width: 90%;
-	margin: 0 auto;
-	float: none;
-	text-align: justify;
-	}
-	aside {
-	text-align: left;
-	font-size: 2em;
-	line-height: 1.5em;
-	float: none;
-	width: 90%;
-	margin: 0 auto;
 	}
 }
