@@ -332,4 +332,18 @@ footer img {
 	body {
 	padding-top: 9em;
 	}
+	article div {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	text-align: justify;
+	}
+	aside {
+	text-align: left;
+	font-size: 2em;
+	line-height: 1.5em;
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+	}
 }
