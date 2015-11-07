@@ -255,6 +255,8 @@ footer img {
 	footer a {
 		display: block;
 	}
+}
+@media only screen and (max-width: 480px) {
 	#gray {
     background-color: #353434;
     position: fixed;
@@ -326,9 +328,10 @@ footer img {
 		float: none;
 	}
 	body {
-	padding-top: 5em;
+	padding-top: 9em;
+	font-size: 1.5em;
 	}
 	#hero {
 	padding-bottom: 0;
-}
+	}
 }
