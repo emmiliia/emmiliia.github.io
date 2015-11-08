@@ -90,6 +90,7 @@ footer {
 footer a {
 	text-transform: uppercase;
 	padding: 1em;
+	color: #000;
 }
 footer a:hover {
 	color: #fff;
