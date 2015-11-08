@@ -16,15 +16,15 @@ nav {
 }
 p {
 	font-size: 1em;
-	padding: 0 2em 1em 2em;
+	padding-bottom: 1em;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
-	padding: 3em 1em 2em 1em;
+	padding-bottom: 2em;
 	color: #000;
 }
 h2 {
@@ -33,7 +33,7 @@ h2 {
 	font-size: 1em;
 	line-height: 1em;
 	letter-spacing: 0.2em;
-	padding: 2em 0 1em 0;
+	padding: 0 0 1em 0;
 }
 a {
 	color: #353434;
@@ -45,18 +45,29 @@ a:hover {
 p a {
 	color: #757575;
 }
-#columnone {
-	width: 45%;
-	margin-left: 5%;
-	padding-right: 5%; 
-	float: left;
-}
-#columntwo {
-	width: 50%;
-	float: left;
-}
-#columntwo img {
+img {
 	width: 100%;
+	padding-bottom: 2em;
+}
+#firstcolumn {
+	width: 28.33%;
+	padding: 2.5%;
+	margin-left: 7.5%;
+	float: left;
+	text-align: justify;
+}
+#secondcolumn {
+	width: 28.33%;
+	padding: 2.5%;
+	float: left;
+	text-align: justify;
+}
+#thirdcolumn {
+	width: 28.33%;
+	padding: 2.5%;
+	margin-right: 7.5%;
+	float: left;
+	text-align: justify;
 }
 footer {
 	padding: 1em;
@@ -75,13 +86,6 @@ footer img {
 }
 #copyright {
 	padding: 2em;
-}
-#wrapper {
-    background-color: #ffffff;
-    position: relative;
-    width:100%;
-    margin: auto;
-    text-align:center;
 }
 .clearfix:after {
     visibility: hidden;
