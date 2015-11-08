@@ -23,7 +23,7 @@ nav a {
 	font-weight: 700;
 	text-transform: uppercase;
 	top: 50%;
-	font-size: 2.5em;
+	font-size: 2em;
 	letter-spacing: .25em;
 	line-height: 1.25em;
 }
@@ -115,15 +115,15 @@ footer img {
     clear: both;
     height: 0;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 	body {
-		padding-top: 30% 
+		padding-top: 5%; 
 	}
 	nav a {
 		font-size: 1.5em;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 1.5em;
 		text-align: center;
 	}
 		#firstcolumn, #secondcolumn, #thirdcolumn {
@@ -138,9 +138,16 @@ footer img {
 		display: block;
 	}
 @media only screen and (max-width: 414px) {
-	#firstcolumn, #secondcolumn, #thirdcolumn {
-		float: none;
-		width: 100%;
-		margin: 10%;
-	}
+		body {
+		top: 20%;
+		}
+		nav {
+		height: 5em;
+		}
+		nav a {
+		font-size: 1em;
+		}
+		#firstcolumn {
+		padding-top: 2em;
+		}
 }
