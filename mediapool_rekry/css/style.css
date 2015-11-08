@@ -1,0 +1,86 @@
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	color: #343535;
+	text-align: center;
+	font-family: "Adobe Caslon Pro", serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 1.25px;
+}
+p {
+	font-size: 1em;
+	padding: 0 3em 1em 3em;
+}
+h1 {
+	font-family: "futura-pt", sans-serif;
+	font-size: 4em;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 0.1em;
+	padding: 1em;
+	color: #000;
+}
+h2 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	padding: 2em 0 1em 0;
+}
+a {
+	color: #353434;
+	text-decoration: none;
+}
+a:hover {
+	color: #7cae91;
+}
+p a {
+	color: #757575;
+}
+#contact div, #about div {
+	width: 50%;
+	float: left;
+}
+#contact img, #about img {
+	width: 100%;
+}
+footer {
+	padding: 1em;
+	background-color: #ededed;
+}
+footer a {
+	text-transform: uppercase;
+	padding: 1em;
+}
+footer a:hover {
+	color: #fff;
+}
+footer img {
+	max-width: 25%;
+	padding: 1em;
+}
+#copyright {
+	padding: 2em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 3em;
+	}
+	footer a {
+		display: block;
+	}
+@media only screen and (max-width: 414px) {
+}
