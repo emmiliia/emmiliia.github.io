@@ -17,7 +17,10 @@ nav a {
 	line-height: 2em;
 }
 span {
-	font-size: 2em;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 0.7em;
+	text-transform: uppercase;
 }
 p {
 	font-size: 1em;
@@ -339,9 +342,6 @@ footer img {
     -webkit-transform:rotate(0deg);
 	-moz-transform:rotate(0deg);
 	-o-transform:rotate(0deg);
-	}
-	span {
-		font-size: 1.5em;
 	}
 	#wrapper {
     background-color: #ffffff;
