@@ -27,6 +27,9 @@ nav a {
 	letter-spacing: .25em;
 	line-height: 1.25em;
 }
+span {
+	font-size: 1em;
+}
 p {
 	font-size: 1em;
 	padding-bottom: 1em;
@@ -122,6 +125,9 @@ footer img {
 	nav a {
 		font-size: 1.5em;
 	}
+	span {
+	font-size: 1em;
+}
 	h1 {
 		font-size: 1.5em;
 		text-align: center;
@@ -150,4 +156,7 @@ footer img {
 		#firstcolumn {
 		padding-top: 2em;
 		}
+		span {
+		font-size: .6em;
+}
 }
