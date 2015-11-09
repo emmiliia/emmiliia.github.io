@@ -81,7 +81,7 @@ img:hover {
 	padding: 0% 10% 5% 10%;
 }
 #hero {
-	padding: 10%;
+	padding: 5% 10%;
 }
 article div {
 	width: 50%;
@@ -121,7 +121,7 @@ aside {
 	width: 50%;
 	text-align: left;
 	float: left;
-	padding: 5%;
+	padding: 0 5%;
 }
 #archive div {
 	width: 60%;
@@ -286,6 +286,11 @@ footer img {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
+	}
+	#contact div{
+		width: 80%;
+		margin: 0 auto;
+		float: none;
 	}
 @media only screen and (max-width: 414px) {
 	#gray {
