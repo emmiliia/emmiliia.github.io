@@ -16,12 +16,6 @@ nav a {
 	letter-spacing: .5em;
 	line-height: 2em;
 }
-span {
-	font-family: "futura-pt", sans-serif;
-	font-weight: 700;
-	font-size: 0.7em;
-	text-transform: uppercase;
-}
 p {
 	font-size: 1em;
 	padding-bottom: 2em;
@@ -260,6 +254,9 @@ footer img {
     height: 0;
 }
 @media only screen and (max-width: 768px) {
+	nav a {
+		font-size: .8em;
+	}
 	h1 {
 		font-size: 3em;
 	}
