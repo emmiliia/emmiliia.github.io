@@ -97,6 +97,7 @@ aside {
 	font-size: 1.5em;
 	line-height: 1.5em;
 	float: left;
+	position: absolute;
 	width: 25%;
 	margin-left: 10%;
 }
