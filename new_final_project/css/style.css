@@ -67,6 +67,7 @@ p a {
 	letter-spacing: 0.15em;
 	margin: 0 auto;
 	padding: 0;
+	width: 80%;
 }
 .highlight {
 	color: #e8e5c8;
@@ -269,6 +270,9 @@ footer img {
 	}
 	footer a {
 		display: block;
+	}
+	.theme {
+		width: 90%;
 	}
 	#hero {
 	padding-bottom: 0;
