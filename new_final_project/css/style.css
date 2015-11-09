@@ -16,6 +16,9 @@ nav a {
 	letter-spacing: .5em;
 	line-height: 2em;
 }
+span {
+	text-transform: uppercase;
+}
 p {
 	font-size: 1em;
 	padding-bottom: 2em;
@@ -59,6 +62,7 @@ p a {
 	font-style: italic;
 	font-size: 1.25em;
 	letter-spacing: 0.15em;
+	line-height: 1.5;
 	margin: 0 auto;
 	padding: 0;
 	width: 80%;
@@ -80,21 +84,21 @@ img:hover {
 	padding: 10%;
 }
 article div {
-	width: 45%;
-	margin-left: 10%;
-	margin-right: 5%;
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 10%;
 	margin-bottom: 5%;
-	float: left;
+	float: right;
 	text-align: justify;
 }
 aside {
 	text-align: left;
+	font-style: italic;
 	font-size: 1.5em;
 	line-height: 1.5em;
 	float: left;
 	width: 25%;
-	margin-right: 10%;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 #firstcolumn {
 	width: 28.33%;
@@ -284,6 +288,7 @@ footer img {
 	float: none;
 	width: 80%;
 	margin: 0 auto;
+	text-align: center;
 	}
 @media only screen and (max-width: 414px) {
 	#gray {
