@@ -16,8 +16,8 @@ nav a {
 	letter-spacing: .5em;
 	line-height: 2em;
 }
-span {
-	text-transform: uppercase;
+#issue {
+	font-size: 8em;
 }
 p {
 	font-size: 1em;
@@ -97,7 +97,6 @@ aside {
 	font-size: 1.5em;
 	line-height: 1.5em;
 	float: left;
-	position: absolute;
 	width: 25%;
 	margin-left: 10%;
 }
