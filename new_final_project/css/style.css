@@ -302,7 +302,7 @@ footer img {
 	#gray a {
 	color: #e8e5c8;
 	text-transform: uppercase;
-	top: 21%;
+	top: 22%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -322,7 +322,7 @@ footer img {
 	#yellow a {
 	color: #353434;
 	text-transform: uppercase;
-	top: 59%;
+	top: 61%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -340,7 +340,7 @@ footer img {
 	#topnav a {
 	color: #353434;
 	text-transform: uppercase;
-	top: 70%;
+	top: 75%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
