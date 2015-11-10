@@ -364,7 +364,7 @@ footer img {
 	padding-top: 4em;
 	}
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 564px) {
 	h1 {
 		font-size: 4em;
 	}
