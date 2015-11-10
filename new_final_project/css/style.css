@@ -73,7 +73,7 @@ a:hover img {
 }
 .theme {
 	font-style: italic;
-	font-size: 1.25em;
+	font-size: 1em;
 	letter-spacing: 0.15em;
 	line-height: 1.5;
 	margin: 0 auto;
@@ -240,7 +240,7 @@ footer img {
 	background-color: #fff;
 	position: relative;
 	top: 0;
-	height: 5%;
+	height: 10%;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -300,7 +300,7 @@ footer img {
 @media only screen and (max-width: 700px) {
 	#gray {
     background-color: #353434;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -320,7 +320,7 @@ footer img {
 	}
 	#yellow {
     background-color: #e8e5c8;
-    position: fixed;
+    position: relative;
     top: 0%;
     right: 0;
     width: 100%;
@@ -339,8 +339,8 @@ footer img {
 	-o-transform:rotate(0deg);
 	}
 	#topnav {
-	background-color: #f5f5f5;
-	position: fixed;
+	background-color: #fff;
+	position: relative;
 	top: 0;
 	height: 9em;
 	width: 100%;
