@@ -369,3 +369,11 @@ footer img {
 		font-size: 4em;
 	}
 }
+@media only screen and (max-width: 451px) {
+	h1 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+}
