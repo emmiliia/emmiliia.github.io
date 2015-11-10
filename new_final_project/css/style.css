@@ -343,25 +343,22 @@ footer img {
 	#topnav {
 	background-color: #353434;
 	position: relative;
-	top: 0;
-	height: 9em;
+	padding-top: 0;
+	height: 8em;
 	width: 100%;
 	}
 	#topnav a {
 	color: #e8e5c8;
-	top: 0%;
+	top: 10%;
     position: relative;
     z-index: 5;
-    transform: rotate (0deg);
-    -webkit-transform:rotate(0deg);
-	-moz-transform:rotate(0deg);
-	-o-transform:rotate(0deg);
+    padding: 0;
 	}
 	#wrapper {
     background-color: #ffffff;
     position: relative;
     width:100%;
-    padding:10% 0 0;
+    padding: 0;
     margin: auto;
     color:#333;
     text-align:center;
