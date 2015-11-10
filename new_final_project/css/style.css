@@ -21,23 +21,31 @@ p {
 	margin-bottom: 2em;
 }
 h3 + p {
-	margin-top: .5em;
+	margin-top: 1em;
 }
 h1 + .theme {
 	margin-top: 5%;
 }
-h2 + h3, h2 + p{
+h2 + h3 {
+	margin-top: 2em;
+}
+h2 + p {
 	margin-top: 1em;
+}
+h1 + h3 {
+	margin-top: 3%;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 6em;
+	font-size: 5em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	margin: 0 5%;
+	margin: 0 auto;
 }
-h2 {
+h2, h3 {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
 	font-size: 1em;
@@ -46,10 +54,7 @@ h2 {
 	text-transform: uppercase;
 }
 h3 {
-	font-style: italic;
-	font-weight: 400;
-	font-size: 1em;
-	letter-spacing: 0.15em;
+	font-size: 0.5em;
 }
 a {
 	color: #353434;
@@ -258,7 +263,7 @@ footer img {
 }
 @media only screen and (max-width: 950px) {
 	h1 {
-		font-size: 5em;
+		font-size: 4em;
 	}
 	#firstcolumn, #secondcolumn, #thirdcolumn {
 		float: none;
@@ -365,11 +370,6 @@ footer img {
 	}
 }
 @media only screen and (max-width: 564px) {
-	h1 {
-		font-size: 4em;
-	}
-}
-@media only screen and (max-width: 451px) {
 	h1 {
 		font-size: 3em;
 	}
