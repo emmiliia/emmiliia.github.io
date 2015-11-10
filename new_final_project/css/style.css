@@ -325,4 +325,18 @@ footer a:hover {
 	h1 {
 		font-size: 3em;
 	}
+	#firstcolumn, #secondcolumn, #thirdcolumn {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.theme {
+		width: 90%;
+	}
+	article div {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	text-align: justify;
+	}
 }
