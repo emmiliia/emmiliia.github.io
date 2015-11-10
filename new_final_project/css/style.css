@@ -45,7 +45,7 @@ h1 {
 	margin: 0 5%;
 	margin: 0 auto;
 }
-h2, h3 {
+h2 {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
 	font-size: 1em;
@@ -54,17 +54,22 @@ h2, h3 {
 	text-transform: uppercase;
 }
 h3 {
-	font-size: 0.5em;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
 }
 a {
 	color: #353434;
 	text-decoration: none;
 }
 a:hover {
-	color: #7cae91;
+	color: #aab4ac;
 }
 p a {
 	color: #757575;
+}
+a:hover img {
+	opacity: 0.6;
 }
 .theme {
 	font-style: italic;
@@ -78,9 +83,6 @@ p a {
 img {
 	width: 100%;
 	margin-bottom: 2em;
-}
-img:hover {
-	opacity: 0.5;
 }
 #heroimage {
 	padding: 0% 10% 5% 10%;
@@ -194,6 +196,7 @@ footer img {
     top: 0;
     left: 0;
     width: 5%;
+    min-width: 60px;
     height: 100%;
     z-index: 0;
 }
@@ -216,6 +219,7 @@ footer img {
     top: 0;
     right: 0;
     width: 5%;
+    min-width: 60px;
     height: 100%;
     z-index: 0;
 }
@@ -241,7 +245,6 @@ footer img {
 	margin: 0 auto;
 }
 #topnav a {
-	text-transform: uppercase;
 	letter-spacing: .5em;
 	padding: 2em;
 }
@@ -294,7 +297,7 @@ footer img {
 		float: none;
 		text-align: center;
 	}
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 700px) {
 	#gray {
     background-color: #353434;
     position: fixed;
