@@ -6,7 +6,7 @@ body {
 	color: #343535;
 	text-align: center;
 	font-family: "Adobe Caslon Pro", serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 1.25px;
@@ -18,16 +18,24 @@ nav a {
 }
 p {
 	font-size: 1em;
-	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+h3 + p {
+	margin-top: .5em;
+}
+h1 + .theme {
+	margin-top: 5%;
+}
+h2 + h3, h2 + p{
+	margin-top: 1em;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 5em;
+	font-size: 6em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	padding-bottom: 1em;
 }
 h2 {
 	font-family: "futura-pt", sans-serif;
@@ -36,14 +44,12 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	padding: 0 0 2em 0;
 }
 h3 {
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 0.15em;
-	padding-bottom: 1em;
 }
 a {
 	color: #353434;
@@ -64,12 +70,9 @@ p a {
 	padding: 0;
 	width: 80%;
 }
-.highlight {
-	color: #e8e5c8;
-}
 img {
 	width: 100%;
-	padding-bottom: 2em;
+	margin-bottom: 2em;
 }
 img:hover {
 	opacity: 0.5;
@@ -78,7 +81,7 @@ img:hover {
 	padding: 0% 10% 5% 10%;
 }
 #hero {
-	padding: 5% 10%;
+	padding: 10%;
 }
 article div {
 	width: 50%;
@@ -99,18 +102,18 @@ aside {
 }
 #firstcolumn {
 	width: 28.33%;
-	padding: 2.5%;
+	padding: 0 2.5%;
 	margin-left: 7.5%;
 	float: left;
 }
 #secondcolumn {
 	width: 28.33%;
-	padding: 2.5%;
+	padding: 0 2.5%;
 	float: left;
 }
 #thirdcolumn {
 	width: 28.33%;
-	padding: 2.5%;
+	padding: 0 2.5%;
 	margin-right: 7.5%;
 	float: left;
 }
@@ -118,7 +121,7 @@ aside {
 	width: 50%;
 	text-align: left;
 	float: left;
-	padding: 0 5%;
+	padding: 5%;
 }
 #archive div {
 	width: 60%;
@@ -175,8 +178,7 @@ footer a:hover {
 	color: #fff;
 }
 footer img {
-	max-width: 25%;
-	padding: 1em;
+	max-width: 20em;
 }
 #copyright {
 	padding: 2em;
@@ -196,6 +198,7 @@ footer img {
 	letter-spacing: .5em;
     position: relative;
     top:49%;
+    padding: 2em;
     z-index: 5;
     transform: rotate (-90deg);
     -webkit-transform:rotate(-90deg);
@@ -215,6 +218,7 @@ footer img {
 	color: #353434;
 	text-transform: uppercase;
 	letter-spacing: .5em;
+	padding: 2em;
     position: relative;
     top:49%;
     z-index: 5;
@@ -234,6 +238,7 @@ footer img {
 #topnav a {
 	text-transform: uppercase;
 	letter-spacing: .5em;
+	padding: 2em;
 }
 #wrapper {
     background-color: #fff;
@@ -251,12 +256,9 @@ footer img {
     clear: both;
     height: 0;
 }
-@media only screen and (max-width: 768px) {
-	nav a {
-		font-size: .7em;
-	}
+@media only screen and (max-width: 950px) {
 	h1 {
-		font-size: 3em;
+		font-size: 5em;
 	}
 	#firstcolumn, #secondcolumn, #thirdcolumn {
 		float: none;
@@ -268,9 +270,6 @@ footer img {
 	}
 	.theme {
 		width: 90%;
-	}
-	#hero {
-	padding-bottom: 0;
 	}
 	article div {
 	width: 80%;
@@ -284,25 +283,26 @@ footer img {
 	margin: 0 auto;
 	text-align: center;
 	}
-	#contact div{
+	#about div{
 		width: 80%;
 		margin: 0 auto;
 		float: none;
+		text-align: center;
 	}
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 850px) {
 	#gray {
     background-color: #353434;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 2em;
+    height: 3em;
     z-index: 5;
 	}
 	#gray a {
 	color: #e8e5c8;
 	text-transform: uppercase;
-	top: 22%;
+	top: 5%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -316,13 +316,13 @@ footer img {
     top: 0%;
     right: 0;
     width: 100%;
-    height: 4em;
+    height: 6em;
     z-index: 0;
 	}
 	#yellow a {
 	color: #353434;
 	text-transform: uppercase;
-	top: 61%;
+	top: 30%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -334,13 +334,13 @@ footer img {
 	background-color: #f5f5f5;
 	position: fixed;
 	top: 0;
-	height: 6em;
+	height: 9em;
 	width: 100%;
 	}
 	#topnav a {
 	color: #353434;
 	text-transform: uppercase;
-	top: 75%;
+	top: 54%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -361,6 +361,11 @@ footer img {
 		float: none;
 	}
 	body {
-	padding-top: 8em;
+	padding-top: 4em;
+	}
+}
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 4em;
 	}
 }
