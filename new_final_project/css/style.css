@@ -306,6 +306,7 @@ footer img {
     width: 100%;
     height: 3em;
     z-index: 5;
+    display: none;
 	}
 	#gray a {
 	color: #e8e5c8;
@@ -326,6 +327,7 @@ footer img {
     width: 100%;
     height: 6em;
     z-index: 0;
+    display: none;
 	}
 	#yellow a {
 	color: #353434;
@@ -339,15 +341,15 @@ footer img {
 	-o-transform:rotate(0deg);
 	}
 	#topnav {
-	background-color: #fff;
+	background-color: #353434;
 	position: relative;
 	top: 0;
 	height: 9em;
 	width: 100%;
 	}
 	#topnav a {
-	color: #353434;
-	top: 54%;
+	color: #e8e5c8;
+	top: 0%;
     position: relative;
     z-index: 5;
     transform: rotate (0deg);
@@ -366,9 +368,6 @@ footer img {
 	}
 	#articleflow div {
 		float: none;
-	}
-	body {
-	padding-top: 4em;
 	}
 }
 @media only screen and (max-width: 564px) {
