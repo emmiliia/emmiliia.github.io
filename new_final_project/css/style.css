@@ -38,7 +38,7 @@ h1 + h3 {
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 5em;
+	font-size: 6em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
@@ -247,7 +247,7 @@ footer a:hover {
 }
 @media only screen and (max-width: 950px) {
 	h1 {
-		font-size: 4em;
+		font-size: 5em;
 	}
 	#firstcolumn, #secondcolumn, #thirdcolumn {
 		float: none;
@@ -278,6 +278,9 @@ footer a:hover {
 @media only screen and (max-width: 700px) {
 	body {
 		font-size: 16px;
+	}
+	h1 {
+		font-size: 4em;
 	}
 	#gray {
     background-color: #353434;
