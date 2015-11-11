@@ -288,6 +288,9 @@ footer a {
 	nav a {
 		font-size: 1em;
 	}
+	#heroimage {
+		padding-bottom: 10%;
+	}
 	#gray {
     background-color: #353434;
     position: relative;
