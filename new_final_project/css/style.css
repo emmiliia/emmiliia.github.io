@@ -96,7 +96,7 @@ img {
 #hero {
 	padding: 10%;
 }
-article {
+article div {
 	width: 50%;
 	margin-left: 5%;
 	margin-right: 10%;
@@ -170,6 +170,10 @@ footer div {
 }
 footer a {
 	padding: 1em;
+}
+#subscribe h1 {
+	letter-spacing: 1em;
+	font-size: 1em;
 }
 #gray {
     background-color: #353434;
@@ -258,7 +262,7 @@ footer a {
 	h4 {
 		width: 90%;
 	}
-	article {
+	article div {
 	width: 80%;
 	margin: 0 auto;
 	float: none;
@@ -350,7 +354,7 @@ footer a {
 	#heroimage {
 		width: 90%;
 	}
-	article {
+	article div {
 	width: 90%;
 	margin: 0 auto;
 	float: none;
