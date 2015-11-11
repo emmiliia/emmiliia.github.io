@@ -89,17 +89,19 @@ img {
 	margin-bottom: 2em;
 }
 #heroimage {
-	padding: 0% 10% 5% 10%;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 5%;
 }
 #hero {
 	padding: 10%;
 }
-article div {
+article {
 	width: 50%;
 	margin-left: 5%;
 	margin-right: 10%;
 	margin-bottom: 5%;
-	float: right;
+	float: left;
 	text-align: justify;
 }
 aside {
@@ -110,6 +112,10 @@ aside {
 	float: left;
 	width: 25%;
 	margin-left: 10%;
+}
+#info {
+	font-style: inherit;
+	font-size: inherit;
 }
 #firstcolumn {
 	width: 28.33%;
@@ -128,11 +134,10 @@ aside {
 	margin-right: 7.5%;
 	float: left;
 }
-#about div {
-	width: 50%;
-	text-align: left;
+#aboutimage {
+	width: 80%;
+	margin: 0 auto;
 	float: left;
-	padding: 5%;
 }
 #archive div {
 	width: 60%;
@@ -165,9 +170,6 @@ footer div {
 }
 footer a {
 	padding: 1em;
-}
-footer a:hover {
-	color: #fff;
 }
 #gray {
     background-color: #353434;
@@ -208,7 +210,7 @@ footer a:hover {
 	letter-spacing: .5em;
 	padding: 2em;
     position: relative;
-    top:38%;
+    top:39%;
     z-index: 5;
     transform: rotate (90deg);
     -webkit-transform:rotate(90deg);
@@ -253,10 +255,10 @@ footer a:hover {
 		width: 80%;
 		margin: 0 auto;
 	}
-	.theme {
+	h4 {
 		width: 90%;
 	}
-	article div {
+	article {
 	width: 80%;
 	margin: 0 auto;
 	float: none;
@@ -268,11 +270,10 @@ footer a:hover {
 	margin: 0 auto;
 	text-align: center;
 	}
-	#about div{
+	#info {
+		text-align: left;
 		width: 80%;
 		margin: 0 auto;
-		float: none;
-		text-align: center;
 	}
 @media only screen and (max-width: 700px) {
 	body {
@@ -346,14 +347,16 @@ footer a:hover {
 	#heroimage {
 		width: 90%;
 	}
-	h4 {
-		width: 90%;
-	}
-	article div {
+	article {
 	width: 90%;
 	margin: 0 auto;
 	float: none;
 	text-align: justify;
+	}
+	#info {
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
 	}
 }
 @media only screen and (max-width: 320px) {
