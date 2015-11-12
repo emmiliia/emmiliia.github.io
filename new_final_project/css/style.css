@@ -113,6 +113,9 @@ aside {
 	width: 25%;
 	margin-left: 10%;
 }
+#sticky {
+	
+}
 #info {
 	font-style: inherit;
 	font-size: inherit;
@@ -244,6 +247,15 @@ footer a {
     content: " ";
     clear: both;
     height: 0;
+}
+.grid {
+	width: 85%;
+	margin: 0 auto;
+}
+.grid-item {
+	width: 33.33%;
+	padding: 2.5%;
+	float: left;
 }
 @media only screen and (max-width: 950px) {
 	h1 {
