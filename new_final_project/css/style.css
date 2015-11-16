@@ -388,6 +388,17 @@ footer a {
     color:#333;
     text-align:center;
 	}
+	#previous img {
+	width: 100%;
+	float: none;
+	}
+	#next img {
+	width: 100%;
+	float: none;
+	}
+	.space {
+	padding: 2em;
+	}
 }
 @media only screen and (max-width: 564px) {
 	h1 {
