@@ -406,6 +406,14 @@ footer a {
 	width: 90%;
 	margin: 0 auto;
 	}
+	#previous {
+	width: 45%;
+	margin-left: 5%;
+	}
+	#next {
+	width: 45%;
+	margin-right: 5%;
+	}
 }
 @media only screen and (max-width: 320px) {
 	h1 {
