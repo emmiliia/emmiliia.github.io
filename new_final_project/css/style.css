@@ -113,9 +113,6 @@ aside {
 	width: 25%;
 	margin-left: 10%;
 }
-#sticky {
-	
-}
 #info {
 	font-style: inherit;
 	font-size: inherit;
@@ -137,26 +134,44 @@ aside {
 	margin-right: 7.5%;
 	float: left;
 }
-#aboutimage {
-	width: 80%;
-	margin: 0 auto;
-	float: left;
-}
-#articleflow {
-	width: 90%;
-	margin: 0 auto;
-	padding: 0 5%;
-	margin-bottom: 5%;
-}
-#articleflow div {
-	width: 50%;
-	float: left;
-}
-#articleflow div:first-of-type {
-	border-right: 2px solid #353434;
-}
 .justify {
 	text-align: justify;
+}
+#previous {
+	width: 40%;
+	margin-left: 10%;
+	float: left;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #353434;
+	text-align: right;
+}
+#next {
+	width: 40%;
+	margin-right: 10%;
+	float: right;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	text-align: left;
+}
+#previous img {
+	width: 15em;
+	float: left;
+	margin: 0;
+}
+#next img {
+	width: 15em;
+	float: right;
+	margin: 0;
+}
+#next:hover {
+	background: #ededed;
+}
+#previous:hover {
+	background: #ededed;
+}
+.space {
+	padding: 4em 2em;
 }
 footer {
 	padding: 3em;
@@ -257,6 +272,21 @@ footer a {
 	padding: 2.5%;
 	float: left;
 }
+@media only screen and (max-width: 1200px) {
+	#previous img {
+	width: 10em;
+	float: left;
+	margin: 0;
+	}
+	#next img {
+	width: 10em;
+	float: right;
+	margin: 0
+	}
+	.space {
+	padding: 2em;
+	}
+}
 @media only screen and (max-width: 950px) {
 	h1 {
 		font-size: 5em;
@@ -285,6 +315,17 @@ footer a {
 		text-align: left;
 		width: 80%;
 		margin: 0 auto;
+	}
+	#previous img {
+	width: 8em;
+	float: left;
+	}
+	#next img {
+	width: 8em;
+	float: right;
+	}
+	.space {
+	padding: 1em;
 	}
 }
 @media only screen and (max-width: 700px) {
@@ -342,12 +383,10 @@ footer a {
     position: relative;
     width:100%;
     padding: 0;
+    padding-bottom: 5%;
     margin: auto;
     color:#333;
     text-align:center;
-	}
-	#articleflow div {
-		float: none;
 	}
 }
 @media only screen and (max-width: 564px) {
