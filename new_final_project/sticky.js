@@ -1,6 +1,6 @@
 // create a clone of the menu, 
 // which we'll only reveal when the user scrolls past a certain position
-$('.sticky').addClass('original').clone().insertAfter('.sticky').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+$('.sticky').addClass('original').clone().insertAfter('.sticky').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','5%').css('z-index','500').removeClass('original').hide();
 
 scrollIntervalID = setInterval(stickIt, 10);
 
@@ -15,7 +15,7 @@ function stickIt() {
     // the cloned menu should have same left position and width as original element    
     orgElement = $('.original');
     coordsOrgElement = orgElement.offset();
-    leftOrgElement = coordsOrgElement.original;  
+    leftOrgElement = coordsOrgElement.left;  
     widthOrgElement = orgElement.css('width');
     $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
