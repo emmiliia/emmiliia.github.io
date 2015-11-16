@@ -82,6 +82,14 @@ img {
 	float: left;
 	text-align: left;
 }
+.grid {
+	width: 85%;
+	margin: 0 auto;
+}
+.grid-item {
+	width: 28.33%;
+	margin: 2.5%;
+}
 footer {
 	background-color: #bbc3b8;
 	float: left;
