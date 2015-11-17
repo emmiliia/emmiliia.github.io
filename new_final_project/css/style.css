@@ -184,10 +184,16 @@ footer div {
 footer a {
 	padding: 1em;
 }
+hr {
+	width: 8em;
+	margin: 0 auto;
+	display: none;
+}
 label {
 	color: #e8e5c8;
 	display: none;
-	font-size: 1.5em;
+	padding-top: 1em;
+	font-style: italic;
 }
 #toggle {
 	display: none;
@@ -353,6 +359,9 @@ label {
 	}
 	#heroimage {
 		padding-bottom: 10%;
+	}
+	hr {
+	display: block;
 	}
 	label {
 		display: block;
