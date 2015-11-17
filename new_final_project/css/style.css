@@ -263,6 +263,8 @@ footer a {
 	width: 85%;
 	margin: 0 auto;
 }
+
+.grid-sizer,
 .grid-item {
 	background-color: gray;
 	width: 33.33%;
