@@ -186,6 +186,7 @@ footer a {
 }
 label {
 	color: #e8e5c8;
+	font-style: italic;
 	display: none;
 }
 #toggle {
