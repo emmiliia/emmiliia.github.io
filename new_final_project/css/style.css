@@ -74,6 +74,7 @@ h4 {
 a {
 	color: #353434;
 	text-decoration: none;
+	transition: 0.3s;
 }
 a:hover, #yellow a:hover, #gray a:hover {
 	color: #aab4ac;
@@ -87,6 +88,7 @@ a:hover img {
 img {
 	width: 100%;
 	margin-bottom: 2em;
+	transition: 0.3s;
 }
 #heroimage {
 	width: 80%;
