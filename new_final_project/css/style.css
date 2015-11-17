@@ -187,8 +187,8 @@ footer a {
 label {
 	color: #e8e5c8;
 	display: none;
-	padding-top: 1em;
 	font-size: 1.5em;
+	padding-top: 1em;
 }
 #toggle {
 	display: none;
@@ -254,7 +254,7 @@ label {
 }
 #topnav a {
 	letter-spacing: .5em;
-	padding: 1em;
+	padding-top: 1em;
 }
 #wrapper {
     background-color: #fff;
