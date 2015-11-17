@@ -188,6 +188,7 @@ label {
 	color: #e8e5c8;
 	font-style: italic;
 	display: none;
+	text-decoration: underline;
 }
 #toggle {
 	display: none;
@@ -249,11 +250,11 @@ label {
 	top: 0;
 	width: 100%;
 	margin: 0 auto;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 #topnav a {
 	letter-spacing: .5em;
-	padding: 2em;
+	padding: 1em;
 }
 #wrapper {
     background-color: #fff;
