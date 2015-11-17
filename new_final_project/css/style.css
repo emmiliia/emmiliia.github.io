@@ -186,9 +186,8 @@ footer a {
 }
 label {
 	color: #e8e5c8;
-	font-style: italic;
 	display: none;
-	text-decoration: underline;
+	font-size: 1.5em;
 }
 #toggle {
 	display: none;
