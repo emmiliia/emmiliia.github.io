@@ -184,6 +184,20 @@ footer div {
 footer a {
 	padding: 1em;
 }
+label {
+	color: #e8e5c8;
+	display: none;
+	font-size: 1.2em;
+	padding-top: 1em;
+}
+#toggle {
+	display: none;
+}
+#mobilemenu {
+	display: none;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
 #gray {
     background-color: #353434;
     position: fixed;
@@ -234,13 +248,13 @@ footer a {
 	background-color: #fff;
 	position: relative;
 	top: 0;
-	height: 10%;
 	width: 100%;
 	margin: 0 auto;
+	padding-bottom: 1em;
 }
 #topnav a {
 	letter-spacing: .5em;
-	padding: 2em;
+	padding-top: 1em;
 }
 #wrapper {
     background-color: #fff;
@@ -343,6 +357,12 @@ footer a {
 	#heroimage {
 		padding-bottom: 10%;
 	}
+	label {
+		display: block;
+	}
+	#toggle:checked + #mobilemenu {
+		display: block;
+	}
 	#gray {
     display: none;
 	}
@@ -352,8 +372,6 @@ footer a {
 	#topnav {
 	background-color: #353434;
 	position: relative;
-	padding-top: 0;
-	height: 6em;
 	width: 100%;
 	}
 	#topnav a {
@@ -361,7 +379,6 @@ footer a {
 	top: 12%;
     position: relative;
     z-index: 5;
-    padding: 0;
     }
 	#wrapper {
     background-color: #ffffff;

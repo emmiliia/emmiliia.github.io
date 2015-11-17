@@ -2,21 +2,52 @@
 <head>
 	<title>Emmi-Liia - Culinary Journal</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://use.typekit.net/kwv1hox.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<script src="sticky.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="sticky.js"></script> -->
+	<script type="text/javascript">// create a clone of the menu, 
+// which we'll only reveal when the user scrolls past a certain position
+$('.sticky').addClass('original').clone().insertAfter('.sticky').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','5%').css('z-index','500').removeClass('original').hide();
+
+scrollIntervalID = setInterval(stickIt, 10);
+
+function stickIt() {
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;               
+
+    // if we scroll past the position of the original menu,
+    // only show the cloned, sticky element
+  if ($(window).scrollTop() >= (orgElementTop)) {
+
+    // the cloned menu should have same left position and width as original element    
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;  
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    
+    // if we're not scrolled past the menu, only show the original menu.
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
+}</script>
 	<meta name="viewport" content="width=device-width, initialscale=1">
 </head>
 <body>
 	<div id="wrapper">
 	<header>
 	<nav id="topnav">
-	<a href="index.html">Emmi-Liia<br>彡<br>Culinary Journal</a>
+	<a href="index.html">Emmi-Liia<br>Culinary Journal</a>
+	<label for="toggle"><i class="fa fa-bars"></i></label>
+	<input type="checkbox" id="toggle">
+	<ul id="mobilemenu"><li><a href="archive.html">Archive</a></li><li><a href="contact.html">Contact</a></li></ul>
 	</nav>
 	<nav id="gray">
-	<a href="archive.html" class="highlight">archive</a>
+	<a href="archive.html">archive</a>
 	</nav>
 	<nav id="yellow">
 	<a href="contact.html">contact</a>
