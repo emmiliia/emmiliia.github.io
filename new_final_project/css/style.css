@@ -282,7 +282,6 @@ label {
 
 .grid-sizer,
 .grid-item {
-	background-color: gray;
 	width: 33.33%;
 	padding: 2.5%;
 	float: left;
