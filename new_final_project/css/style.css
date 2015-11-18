@@ -300,6 +300,13 @@ label {
 	padding: 2em;
 	}
 }
+@media only screen and (max-width: 1000px) {
+	.grid-sizer,
+	.grid-item {
+	width: 50%;
+	padding: 2.5%;
+	float: left;
+}
 @media only screen and (max-width: 950px) {
 	h1 {
 		font-size: 5em;
@@ -401,6 +408,13 @@ label {
 	.space {
 	padding: 2em;
 	}
+}
+@media only screen and (max-width: 600px) {
+	.grid-sizer,
+	.grid-item {
+	width: 100%;
+	padding: 2.5%;
+	float: left;
 }
 @media only screen and (max-width: 564px) {
 	h1 {
