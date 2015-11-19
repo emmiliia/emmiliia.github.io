@@ -3,19 +3,19 @@ $('.grid').masonry({
   itemSelector: '.grid-item',
   columnWidth: 200
 });
-$('#container').imagesLoaded( function() {
+$('.grid').imagesLoaded( function() {
   // images have loaded
 });
 
 // options
-$('#container').imagesLoaded( {
+$('.grid').imagesLoaded( {
   // options...
   },
   function() {
     // images have loaded
   }
 );
-$('#container').imagesLoaded()
+$('.grid').imagesLoaded()
   .always( function( instance ) {
     console.log('all images loaded');
   })
