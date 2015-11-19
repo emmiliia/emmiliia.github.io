@@ -12,12 +12,13 @@ function stickIt() {
     // only show the cloned, sticky element
   if ($(window).scrollTop() >= (orgElementTop)) {
 
-    // the cloned menu should have same left position and width as original element    
+    // the cloned menu should have same left position and width as original element
+
     orgElement = $('.original');
     coordsOrgElement = orgElement.offset();
     leftOrgElement = coordsOrgElement.left;  
     widthOrgElement = orgElement.css('width');
-    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+    $('.cloned').css('left',leftOrgElement+'px').css('top','-8%').css('left','4%').css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
   } else {
     

@@ -5,90 +5,13 @@
 }
 body {
 	font-family: "Bodoni URW", serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #000;
 	text-align: center;
 	letter-spacing: .1em;
 }
-h1 {
-	font-size: 50px;
-	font-weight: 200;
-	padding: .5em 0 .3em 0;
-}
-h2, ul, a {
-	font-family: "Brandon Grotesque", sans-serif;
-	font-size: 1em;
-	font-weight: 100;
-	text-transform: uppercase;
-	padding: 5em 0 1.2em 0;
-	border-bottom: 1px solid black;
-  	display: inline-block;
-}
-.quote {
-	font-size: 24px;
-	line-height: 1.5em;
-	text-align: center;
-	padding: 1.1em 0 2em 0;
-}
-.bold {
-	font-style: bold;
-}
-.articletext {
-	text-align: justify;
-}
-.display {
-	font-style: italic;
-}
-.upper {
-	text-transform: uppercase;
-}
-p {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.5em;
-	width: 750px;
+#wrapper {
+	width: 70%;
 	margin: 0 auto;
 }
-.post {
-	text-align: justify;
-	padding: .5em;
-	width: 800px;
-}
-ul {
-	list-style: none;
-}
-li {
-	display: inline;
-}
-div{
-	padding: 1em;
-}
-hr {
-	width: 100px
-	align: center;
-}
-a {
-	text-decoration: none;
-	color: #000;
-}
-img {
-	width: 750px;
-	padding: 1.1em;
-}
-.wrapper1 {
-	background-color: #EDE8DD;
-}
-.wrapper2 {
-	background-color: #E8E9ED;
-}
-.wrapper3 {
-	background-color: #EDECE8;
-	}
-#logo {
-	width: 30%;
-}
-footer {
-	text-align: center;
-	font-size: 1em;
-	padding: 3em;
-}
+

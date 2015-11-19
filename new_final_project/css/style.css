@@ -147,6 +147,7 @@ aside {
 	border-bottom: 1px solid #ededed;
 	border-right: 1px solid #353434;
 	text-align: right;
+	margin-bottom: 5%;
 }
 #next {
 	width: 40%;
@@ -155,6 +156,7 @@ aside {
 	border-top: 1px solid #ededed;
 	border-bottom: 1px solid #ededed;
 	text-align: left;
+	margin-bottom: 5%;
 }
 #previous img {
 	width: 15em;
