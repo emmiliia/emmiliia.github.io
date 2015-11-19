@@ -1,10 +1,22 @@
 <html>
 <head>
 	<title>Emmi-Liia - Culinary Journal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- typekit -->
 	<script src="https://use.typekit.net/kwv1hox.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	<!-- masonry -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+
+  	<script src="js/masonry-docs.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+	<script type="javascript" src="masonry.js"></script>
 	<meta name="viewport" content="width=device-width, initialscale=1">
 </head>
 <body>
@@ -12,9 +24,6 @@
 	<header>
 	<nav id="topnav">
 	<a href="index.html">Emmi-Liia<br>Culinary Journal</a>
-	<label for="toggle"><i class="fa fa-bars"></i></label>
-	<input type="checkbox" id="toggle">
-	<ul id="mobilemenu"><li><a href="archive.html">Archive</a></li><li><a href="contact.html">Contact</a></li></ul>
 	</nav>
 	<nav id="gray">
 	<a href="archive.html">archive</a>
@@ -27,87 +36,101 @@
 	<h1>Issue N°1</h1>
 	<h4>Explorations of the mind.</h4>
 	</section>
-	<section id="firstcolumn" class="clearfix">
-	<a href="short.html">
-	<article>
-	<img src="images/rmsbeauty.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Small bites</h3>
-	<h2>Living Luminizer</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
-	</article>
-	</a>
-	<a href="recipe.html">
-	<article>
-	<img src="images/cups.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Recipe</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
-	</article>
-	</a>
-	<a href="article.html">
-	<article>
-	<img src="images/loviisa.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Interview</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
-	</article>
-	</a>
-	</section>
-	<section id="secondcolumn">
-	<a href="short.html">
-	<article>
-	<img src="images/box.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Small bites</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in aliquam.</p>
-	</article>
-	</a>
-	<a href="short.html">
-	<article>
-	<img src="images/madara.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Small bites</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
-	</article>
-	</a>
-	<a href="article.html">
-	<article>
-	<img src="images/avocado_icecream.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Recipe</h3>
-	<h2>Heading goes here</h2>
-	<p>Nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
-	</article>
-	</a>
-	</section>
-	<section id="thirdcolumn">
-	<a href="recipe.html">
-	<article>
-	<img src="images/cups.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Feature</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
-	</article>
-	</a>
-	<a href="recipe.html">
-	<article>
-	<img src="images/tata.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Recipe</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
-	</article>
-	<a/>
-	<a href="recipe.html">
-	<article>
-	<img src="images/sriracha.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<h3>Feature</h3>
-	<h2>Heading goes here</h2>
-	<p>Nam molestie nec tortor. Leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
-	</article>
-	</a>
-	</section>
-	<div class="clearfix">
-	</div>
-	</div>
+	<div class="grid js-masonry"
+  data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer" }'>
+		<div class="grid-sizer"></div>
+		<div class="grid-item">
+	  		<a href="short.html">
+			<article>
+			<img src="images/rmsbeauty.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Small bites</h3>
+			<h2>Living Luminizer</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
+			</article>
+			</a>
+		</div>
+    	<div class="grid-item">
+	    	<a href="recipe.html">
+			<article>
+			<img src="images/box.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Recipe</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
+			</article>
+			</a>
+  		</div>
+    	<div class="grid-item">
+	    	<a href="article.html">
+			<article>
+			<img src="images/cups.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Interview</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in aliquam.</p>
+			</article>
+			</a>
+ 	 	</div>
+    	<div class="grid-item">
+	    	<a href="short.html">
+			<article>
+			<img src="images/madara.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Small bites</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
+			</article>
+			</a>
+  		</div>
+    	<div class="grid-item">
+	    	<a href="article.html">
+			<article>
+			<img src="images/avocado_icecream.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Recipe</h3>
+			<h2>Heading goes here</h2>
+			<p>Nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
+			</article>
+			</a>
+ 		</div>
+   		<div class="grid-item">
+	   		<a href="recipe.html">
+			<article>
+			<img src="images/cups.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Feature</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
+			</article>
+			</a>
+  		</div>
+    	<div class="grid-item">
+	    	<a href="recipe.html">
+			<article>
+			<img src="images/sriracha.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Recipe</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
+			</article>
+			<a/>
+  		</div>
+   		<div class="grid-item">
+	   		<a href="recipe.html">
+			<article>
+			<img src="images/tata.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Feature</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Leo sit amet velit. Vestibulum id justo ut vitae massa. Proin in dolor mauris consequat aliquam.</p>
+			</article>
+			</a>
+  		</div>
+    	<div class="grid-item">
+	    	<a href="recipe.html">
+			<article>
+			<img src="images/loviisa.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			<h3>Interview</h3>
+			<h2>Heading goes here</h2>
+			<p>Nam molestie nec tortor. Donec placerat leo sit amet velit. Vestibulum id justo ut vitae massa.</p>
+			</article>
+			</a>
+  		</div>
+	</div>	
+
 	<footer>
 	<div>
 	<a href="mailto:hello@emmi-liia.com" target="blank">hello@emmi-liia.com</a>
