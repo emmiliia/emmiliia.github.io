@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: "Adobe Garamond Pro", serif;
+	font-family: "garamond-premier-pro", serif;
 	font-size: 20px;
 	font-weight: 400;
 	color: #000;
@@ -15,12 +15,12 @@ body {
 	margin: 0 auto;
 }
 h1 {
-	font-family: "Futura PT", sans-serif;	
+	font-family: "futura-pt", sans-serif;	
  	font-size: 2em;
  	font-weight: 700;
 }
 h2 {
-	font-family: "Futura PT", sans-serif;	
+	font-family: "futura-pt", sans-serif;	
  	font-size: 1em;
  	font-weight: 300;
  	text-transform: uppercase;
