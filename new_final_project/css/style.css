@@ -36,9 +36,12 @@ h2 + p {
 h1 + h3 {
 	margin-top: 3%;
 }
+h3 + h4 {
+	margin-top: 2em;
+}
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 6em;
+	font-size: 5em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
@@ -62,8 +65,7 @@ h3 {
 	font-weight: 400;
 }
 h4 {
-	font-style: italic;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: 400;
 	letter-spacing: 0.15em;
 	line-height: 1.5;
