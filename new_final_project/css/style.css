@@ -71,7 +71,7 @@ h4 {
 	line-height: 1.5;
 	margin: 0 auto;
 	padding: 0;
-	width: 80%;
+	width: 50%;
 }
 a {
 	color: #353434;
@@ -82,7 +82,9 @@ a:hover, #yellow a:hover, #gray a:hover {
 	color: #aab4ac;
 }
 p a {
-	border-bottom: 1px solid #353434;
+	font-family: "futura-pt", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 a:hover img {
 	opacity: 0.6;
