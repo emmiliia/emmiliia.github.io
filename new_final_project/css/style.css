@@ -13,9 +13,6 @@ body {
 }
 nav a {
 	display: block;
-	font-size: 1.2em;
-	letter-spacing: .5em;
-	line-height: 1.5em;
 }
 p {
 	font-size: 1em;
@@ -81,7 +78,7 @@ p a:hover {
 border-bottom: 1px solid #343535
 }
 a:hover{
-	color: #b2c0d8;
+	color: #686868;
 }
 p a {
 	font-family: "futura-pt", sans-serif;
@@ -269,7 +266,7 @@ label {
 	padding-bottom: 1em;
 }
 #topnav a {
-	letter-spacing: .1em;
+	letter-spacing: .2em;
 	font-size: 1em;
 	padding: 0 1em;
 }
@@ -286,6 +283,10 @@ label {
 }
 #culinary {
 	text-align: right;
+}
+#logo {
+	width: 25px;
+	margin: 0;
 }
 #wrapper {
     background-color: #fff;
