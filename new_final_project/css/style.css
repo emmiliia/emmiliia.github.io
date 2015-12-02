@@ -76,7 +76,7 @@ h4 {
 a {
 	color: #353434;
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 a:hover, #yellow a:hover, #gray a:hover {
 	color: #aab4ac;
@@ -85,6 +85,7 @@ p a {
 	font-family: "futura-pt", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
+	font-size: 0.8em;
 }
 a:hover img {
 	opacity: 0.6;
@@ -92,7 +93,7 @@ a:hover img {
 img {
 	width: 100%;
 	margin-bottom: 2em;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 #heroimage {
 	width: 80%;
