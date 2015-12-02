@@ -272,6 +272,7 @@ label {
 	letter-spacing: .5em;
 	font-size: 0.9em;
 	text-transform: uppercase;
+	padding: 1em;
 }
 #topnav div {
 	display: block;
