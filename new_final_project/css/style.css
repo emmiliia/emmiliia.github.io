@@ -77,8 +77,8 @@ a {
 	text-decoration: none;
 	transition: 0.2s;
 }
-a:hover, #yellow a:hover, #gray a:hover {
-	color: #aab4ac;
+p a:hover {
+border-bottom: 1px solid #343535
 }
 p a {
 	font-family: "futura-pt", sans-serif;
