@@ -269,9 +269,9 @@ label {
 	padding-bottom: 1em;
 }
 #topnav a {
-	letter-spacing: .3em;
+	letter-spacing: .1em;
 	font-size: 1em;
-	padding: 1em;
+	padding: 0 1em;
 }
 #topnav div {
 	display: block;
@@ -281,9 +281,8 @@ label {
 #name {
 	text-align: left;
 }
-#logo {
-	width: 40px;
-	margin: 0;
+#social a {
+	float: left;
 }
 #culinary {
 	text-align: right;
