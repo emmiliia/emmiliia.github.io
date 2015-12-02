@@ -80,6 +80,9 @@ a {
 p a:hover {
 border-bottom: 1px solid #343535
 }
+a:hover{
+	color: #b2c0d8;
+}
 p a {
 	font-family: "futura-pt", sans-serif;
 	text-transform: uppercase;
@@ -182,8 +185,10 @@ aside {
 	padding: 4em 2em;
 }
 footer {
+	border-top: 1px solid #ededed;
+	width: 80%;
+	margin: 0 auto;
 	padding: 3em;
-	background-color: #ededed;
 	font-size: 1em;
 }
 footer div {
@@ -217,6 +222,7 @@ label {
     z-index: 0;
 }
 #gray a {
+	font-size: 1em;
 	color: #e8e5c8;
 	text-transform: uppercase;
 	letter-spacing: .5em;
@@ -240,6 +246,7 @@ label {
     z-index: 0;
 }
 #yellow a {
+	font-size: 1em;
 	color: #353434;
 	text-transform: uppercase;
 	letter-spacing: .5em;
@@ -256,13 +263,16 @@ label {
 	background-color: #fff;
 	position: relative;
 	top: 0;
-	width: 100%;
+	width: 80%;
+	border-bottom: 1px solid #ededed;
 	margin: 0 auto;
 	padding-bottom: 1em;
 }
 #topnav a {
 	letter-spacing: .5em;
 	padding-top: 1em;
+	font-size: 1em;
+	text-transform: uppercase;
 }
 #wrapper {
     background-color: #fff;
