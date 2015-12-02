@@ -277,14 +277,14 @@ label {
 #topnav div {
 	display: block;
 	float: left;
-	width: 50%;
+	width: 33.33%;
 }
 #name {
 	text-align: left;
 }
-#social a {
-	display: block;
-	float: left;
+#logo {
+	width: 40px;
+	margin: 0;
 }
 #culinary {
 	text-align: right;
