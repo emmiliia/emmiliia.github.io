@@ -270,9 +270,17 @@ label {
 }
 #topnav a {
 	letter-spacing: .5em;
-	padding-top: 1em;
-	font-size: 1em;
+	font-size: 0.9em;
 	text-transform: uppercase;
+}
+#topnav div {
+	display: block;
+	float: left;
+	width: 33.33%;
+}
+#social a {
+	display: block;
+	float: left;
 }
 #wrapper {
     background-color: #fff;
