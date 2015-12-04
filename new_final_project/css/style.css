@@ -247,11 +247,11 @@ label {
 }
 #topnav {
 	background-color: #fff;
-	position: fixed;
+	position: relative;
 	width: 80%;
 	top: 0;
+	margin: auto;
 	border-bottom: 1px solid #ededed;
-	left: 13%;
 	padding-bottom: 1em;
 	z-index: 3;
 }
@@ -334,7 +334,6 @@ label {
 	text-align: center;
 	}
 	.sticky {
-
 	}
 	#info {
 		text-align: left;
