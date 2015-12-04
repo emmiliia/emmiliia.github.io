@@ -268,25 +268,7 @@ label {
 #topnav a {
 	letter-spacing: .2em;
 	font-size: 1em;
-	padding: 0 1em;
-}
-#topnav div {
-	display: block;
-	float: left;
-	width: 33.33%;
-}
-#name {
-	text-align: left;
-}
-#social a {
-	float: left;
-}
-#culinary {
-	text-align: right;
-}
-#logo img {
-	width: 25px;
-	margin: 0;
+	padding: 1em;
 }
 #wrapper {
     background-color: #fff;
