@@ -184,7 +184,7 @@ footer a {
 	padding: 1em;
 }
 label {
-	color: #e8e5c8;
+	color: #343535;
 	display: none;
 	font-size: 1.2em;
 	padding-top: 1em;
@@ -379,12 +379,12 @@ label {
     display: none;
 	}
 	#topnav {
-	background-color: #353434;
+	background-color: #e8e5c8;
 	position: relative;
 	width: 100%;
 	}
 	#topnav a {
-	color: #e8e5c8;
+	color: #343535;
 	top: 12%;
     position: relative;
     z-index: 5;
