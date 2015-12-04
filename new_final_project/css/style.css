@@ -123,25 +123,14 @@ aside {
 	font-style: inherit;
 	font-size: inherit;
 }
-#firstcolumn {
-	width: 28.33%;
-	padding: 0 2.5%;
-	margin-left: 7.5%;
-	float: left;
+#archivebox {
+	width: 85%;
+	margin: auto;
 }
-#secondcolumn {
-	width: 28.33%;
-	padding: 0 2.5%;
+#archivebox article {
+	width: 33.33%;
+	padding: 2.5%;
 	float: left;
-}
-#thirdcolumn {
-	width: 28.33%;
-	padding: 0 2.5%;
-	margin-right: 7.5%;
-	float: left;
-}
-.justify {
-	text-align: justify;
 }
 #previous {
 	width: 40%;
@@ -259,8 +248,8 @@ label {
 #topnav {
 	background-color: #fff;
 	position: fixed;
+	width: 80%;
 	top: 0;
-	width: 72%;
 	border-bottom: 1px solid #ededed;
 	left: 13%;
 	padding-bottom: 1em;
@@ -272,9 +261,10 @@ label {
 	padding: 1em;
 }
 #wrapper {
+	max-width: 1350px;
     background-color: #fff;
     position: relative;
-    width:90%;
+    width: 90%;
     margin: auto;
     text-align:center;
     padding-top: 1%;
