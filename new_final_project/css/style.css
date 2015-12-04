@@ -258,12 +258,13 @@ label {
 }
 #topnav {
 	background-color: #fff;
-	position: relative;
+	position: fixed;
 	top: 0;
-	width: 80%;
+	width: 72%;
 	border-bottom: 1px solid #ededed;
-	margin: 0 auto;
+	left: 13%;
 	padding-bottom: 1em;
+	z-index: 3;
 }
 #topnav a {
 	letter-spacing: .2em;
