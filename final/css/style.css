@@ -264,6 +264,7 @@ label {
 	padding: 1em;
 }
 #content {
+	max-width: 1150px;
 	width: 80%;
 	background-color: #fff;
 	margin: 0 auto;
@@ -319,7 +320,7 @@ label {
 	h1 {
 		font-size: 5em;
 	}
-	#firstcolumn, #secondcolumn, #thirdcolumn {
+	#articlebox {
 		float: none;
 		width: 80%;
 		margin: 0 auto;

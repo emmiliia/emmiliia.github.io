@@ -9,8 +9,9 @@
 	<meta name="viewport" content="width=device-width, initialscale=1">
 </head>
 <body>
-	<div id="wrapper">
-<header>
+<div id="wrapper">
+	<div id="content">
+	<header>
 			<nav id="topnav" class="clearfix">
 						<a id="name" href="index.html">Name here</a>
 			<label for="toggle"><i class="fa fa-bars"></i></label>
@@ -23,17 +24,17 @@
 			<nav id="yellow">
 				<a href="contact.html">contact</a>
 			</nav>
-		</header>
+	</header>
 	<section id="hero">
 		<h1>Kitchen stories</h1>
 		<h3>Issue N°1 Interview</h3>
 		<h4>Make-up artist Aino-Sofia thinks kitchen is the most important room in the house.</h4>
 	</section>
-	<img id="heroimage" src="images/shelf.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-	<aside class="sticky">
-		<p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem.orem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Dorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem."</p>
-	</aside>
 	<article class="clearfix">
+		<img src="images/shelf.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+		<aside class="sticky">
+			<p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem.orem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Dorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem."</p>
+		</aside>
 		<div>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.</p>
 			<p>Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit vel mattis libero nisl et sem.  Proin interdum maecenas massa turpis sagittis in, interdum <a href="###">Mauris sed</a> non lobortis vitae massa. Quisque purus lectus, posuere eget imperdiet nec sodales id arcu. Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.</p>
@@ -95,8 +96,9 @@
 			<h3><p id="copyright">All rights reserved. &copy; 2015 Emmi-Liia Sjöholm<p></h3>
 		</div>
 	</footer>
+	</div>
 </div>
-	<!-- <script type="text/javascript" src="sticky.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/sticky.js"></script> -->
 	<script type="text/javascript">// create a clone of the menu, 
 // which we'll only reveal when the user scrolls past a certain position
 $('.sticky').addClass('original').clone().insertAfter('.sticky').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','5%').css('z-index','500').removeClass('original').hide();

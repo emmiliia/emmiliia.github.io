@@ -89,23 +89,20 @@ p a {
 a:hover img {
 	opacity: 0.8;
 }
+ul {
+	list-style: none;
+}
 img {
 	width: 100%;
 	margin-bottom: 2em;
 	transition: 0.2s;
 }
-#heroimage {
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 5%;
-}
 #hero {
 	padding: 10%;
 }
 article div {
-	width: 50%;
+	width: 60%;
 	margin-left: 5%;
-	margin-right: 10%;
 	margin-bottom: 5%;
 	float: left;
 	text-align: justify;
@@ -116,16 +113,14 @@ aside {
 	font-size: 1.2em;
 	line-height: 1.5em;
 	float: left;
-	width: 25%;
-	margin-left: 10%;
+	width: 35%;
 }
 #info {
 	font-style: inherit;
 	font-size: inherit;
 }
 #archivebox {
-	width: 85%;
-	margin: auto;
+	width: 100%;
 }
 #archivebox article {
 	width: 33.33%;
@@ -133,8 +128,7 @@ aside {
 	float: left;
 }
 #previous {
-	width: 40%;
-	margin-left: 10%;
+	width: 50%;
 	float: left;
 	border-top: 1px solid #ededed;
 	border-bottom: 1px solid #ededed;
@@ -143,8 +137,7 @@ aside {
 	margin-bottom: 5%;
 }
 #next {
-	width: 40%;
-	margin-right: 10%;
+	width: 50%;
 	float: right;
 	border-top: 1px solid #ededed;
 	border-bottom: 1px solid #ededed;
@@ -172,7 +165,7 @@ aside {
 }
 footer {
 	border-top: 1px solid #ededed;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	padding: 3em;
 	font-size: 1em;
@@ -213,11 +206,11 @@ label {
 	text-transform: uppercase;
 	letter-spacing: .5em;
     position: relative;
-    top:49%;
+    top:50%;
     padding: 2em;
     z-index: 5;
     transform: rotate (-90deg);
-    -webkit-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg) translateX (-50%);
     -moz-transform:rotate(-90deg);
 	-o-transform:rotate(-90deg);
 }
@@ -238,17 +231,17 @@ label {
 	letter-spacing: .5em;
 	padding: 2em;
     position: relative;
-    top:39%;
+    top:50%;
     z-index: 5;
     transform: rotate (90deg);
-    -webkit-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg) translateY (-100%);
 	-moz-transform:rotate(90deg);
 	-o-transform:rotate(90deg);
 }
 #topnav {
 	background-color: #fff;
 	position: relative;
-	width: 80%;
+	width: 100%;
 	top: 0;
 	margin: auto;
 	border-bottom: 1px solid #ededed;
@@ -260,11 +253,16 @@ label {
 	font-size: 1em;
 	padding: 1em;
 }
+#content {
+	max-width: 1150px;
+	width: 80%;
+	background-color: #fff;
+	margin: 0 auto;
+}
 #wrapper {
-	max-width: 1350px;
-    background-color: #fff;
+    background-color: red;
     position: relative;
-    width: 90%;
+    width:90%;
     margin: auto;
     text-align:center;
     padding-top: 1%;
@@ -278,7 +276,7 @@ label {
     height: 0;
 }
 .grid {
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 }
 .grid-sizer,
@@ -363,9 +361,6 @@ label {
 	nav a {
 		font-size: 1em;
 	}
-	#heroimage {
-		padding-bottom: 10%;
-	}
 	label {
 		display: block;
 	}
@@ -379,7 +374,7 @@ label {
     display: none;
 	}
 	#topnav {
-	background-color: #e8e5c8;
+	background-color: #fff;
 	position: relative;
 	width: 100%;
 	}
@@ -398,6 +393,9 @@ label {
     margin: auto;
     color:#333;
     text-align:center;
+	}
+	#content {
+		width: 90%;
 	}
 	#previous img {
 	width: 100%;
@@ -424,35 +422,27 @@ label {
 	}
 	#archivebox {
 	float: none;
-	width: 90%;
-	margin: 0 auto;
-	}
-	#heroimage {
-	width: 90%;
 	}
 	#archivebox article {
 	float: none;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	}
 	article div {
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
 	float: none;
 	text-align: justify;
 	}
 	#info {
 	text-align: left;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	}
 	#previous {
-	width: 45%;
-	margin-left: 5%;
+	width: 50%;
 	}
 	#next {
-	width: 45%;
-	margin-right: 5%;
+	width: 50%;
 	}
 }
 @media only screen and (max-width: 320px) {
