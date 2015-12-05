@@ -210,7 +210,7 @@ label {
     padding: 2em;
     z-index: 5;
     transform: rotate (-90deg);
-    -webkit-transform:rotate(-90deg) (-50%);
+    -webkit-transform:rotate(-90deg) translateX (-50%);
     -moz-transform:rotate(-90deg);
 	-o-transform:rotate(-90deg);
 }
@@ -234,7 +234,7 @@ label {
     top:50%;
     z-index: 5;
     transform: rotate (90deg);
-    -webkit-transform:rotate(90deg) (-50%);
+    -webkit-transform: translateY (-100%) rotate(90deg);
 	-moz-transform:rotate(90deg);
 	-o-transform:rotate(90deg);
 }
