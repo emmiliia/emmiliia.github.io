@@ -78,7 +78,7 @@ p a:hover {
 border-bottom: 1px solid #343535
 }
 a:hover{
-	color: #686868;
+	color: #6f6f6f;
 }
 p a {
 	font-family: "futura-pt", sans-serif;
@@ -93,10 +93,10 @@ ul {
 	list-style: none;
 }
 .readmore {
-	width: 40%;
+	width: 30%;
 	font-family: "futura-pt", sans-serif;
 	font-size: 0.8em;
-	padding: .3em;
+	padding: .2em;
 	border: 1px solid #ededed;
 	margin: 0 auto;
 }
