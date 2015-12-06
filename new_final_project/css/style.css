@@ -92,6 +92,14 @@ a:hover img {
 ul {
 	list-style: none;
 }
+.readmore {
+	width: 40%;
+	font-family: "futura-pt", sans-serif;
+	font-size: 0.8em;
+	padding: .5em;
+	border: 1px solid #ededed;
+	margin: 0 auto;
+}
 img {
 	width: 100%;
 	margin-bottom: 2em;
