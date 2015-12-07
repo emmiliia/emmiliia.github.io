@@ -18,6 +18,9 @@ p {
 	font-size: 1em;
 	margin-bottom: 2em;
 }
+h1 + h4 {
+	margin-top: 5%;
+}
 h3 + h2 {
 	margin-top: 1%;
 }
