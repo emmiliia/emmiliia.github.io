@@ -316,9 +316,6 @@ label {
 	float: left;
 }
 @media only screen and (max-width: 950px) {
-	h1 {
-		font-size: 5em;
-	}
 	#archivebox article{
 		float: none;
 		width: 80%;
@@ -359,10 +356,6 @@ label {
 	}
 }
 @media only screen and (max-width: 700px) {
-	}
-	h1 {
-		font-size: 4em;
-	}
 	h4 {
 		font-size: 1em;
 	}
