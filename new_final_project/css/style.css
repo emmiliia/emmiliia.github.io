@@ -212,10 +212,10 @@ label {
     top:50%;
     padding: 2em;
     z-index: 5;
-    transform: rotate (-90deg);
-    -webkit-transform:rotate(-90deg) translateX (-50%);
-    -moz-transform:rotate(-90deg);
-	-o-transform:rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate (-90deg);
 }
 #yellow {
     background-color: #e8e5c8;
@@ -236,10 +236,10 @@ label {
     position: relative;
     top:50%;
     z-index: 5;
-    transform: rotate (90deg);
-    -webkit-transform: translateY (-100%) rotate(90deg);
-	-moz-transform:rotate(90deg);
-	-o-transform:rotate(90deg);
+    -webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate (90deg);
 }
 #topnav {
 	background-color: #fff;
