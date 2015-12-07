@@ -196,6 +196,7 @@ label {
 #mobilemenu {
 	display: none;
 	text-transform: uppercase;
+	padding-top: 1em;
 	font-size: 0.9em;
 }
 #gray {
