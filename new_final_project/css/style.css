@@ -160,7 +160,6 @@ footer {
 	border-top: 1px solid #ededed;
 	width: 100%;
 	margin: 0 auto;
-	padding: 2em;
 	font-size: 1em;
 }
 footer div {
@@ -174,6 +173,8 @@ label {
 	display: none;
 	font-size: 1.2em;
 	padding-top: 1em;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 300;
 }
 #toggle {
 	display: none;
@@ -303,9 +304,9 @@ label {
 }
 @media only screen and (max-width: 950px) {
 	#archivebox article{
-		float: none;
-		width: 80%;
-		margin: 0 auto;
+	float: none;
+	width: 80%;
+	margin: 0 auto;
 	}
 	h4 {
 		width: 90%;
@@ -350,8 +351,6 @@ label {
 	}
 	label {
 		display: block;
-		font-family: "futura-pt", sans-serif;
-		font-weight: 300;
 	}
 	#toggle:checked + #mobilemenu {
 		display: block;
@@ -384,7 +383,7 @@ label {
     text-align:center;
 	}
 	#content {
-		width: 90%;
+	width: 90%;
 	}
 	#previous img {
 	width: 100%;
