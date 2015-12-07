@@ -14,6 +14,10 @@ body {
 nav a {
 	display: block;
 }
+#logo {
+	width: 200px;
+	margin: 0;
+}
 p {
 	font-size: 1em;
 	margin-bottom: 2em;
@@ -240,7 +244,6 @@ label {
 	top: 0;
 	margin: auto;
 	border-bottom: 1px solid #ededed;
-	padding-bottom: 1em;
 	z-index: 3;
 }
 #topnav a {
@@ -260,7 +263,6 @@ label {
     width:90%;
     margin: auto;
     text-align:center;
-    padding-top: 1%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -309,17 +311,17 @@ label {
 	margin: 0 auto;
 	}
 	h4 {
-		width: 90%;
+	width: 90%;
 	}
 	article div {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	float: none;
 	text-align: justify;
 	}
 	aside {
 	float: none;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	}
