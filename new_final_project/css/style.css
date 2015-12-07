@@ -364,6 +364,8 @@ label {
 	}
 	label {
 		display: block;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 300;
 	}
 	#toggle:checked + #mobilemenu {
 		display: block;
