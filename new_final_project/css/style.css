@@ -102,15 +102,13 @@ article div {
 }
 aside {
 	text-align: left;
-	font-style: italic;
-	font-size: 1.2em;
 	line-height: 1.5em;
 	float: left;
 	width: 35%;
 }
-#info {
-	font-style: inherit;
-	font-size: inherit;
+#quote {
+	font-style: italic;
+	font-size: 1.2em;
 }
 #archivebox {
 	width: 100%;

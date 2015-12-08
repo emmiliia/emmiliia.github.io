@@ -1,7 +1,8 @@
 <html>
 <head>
-	<title>Emmi-Liia - Bloggazzine for foodies</title>
+	<title>Emmi-Liia - Culinary Journal</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://use.typekit.net/kwv1hox.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -10,27 +11,27 @@
 <body>
 <div id="wrapper">
 	<div id="content">
-		<header>
-			<nav id="topnav">
-				<a href="index.html">Name here</a>
-				<label for="toggle">Menu</label>
-				<input type="checkbox" id="toggle">
-				<ul id="mobilemenu"><li><a href="archive.html">Archive</a></li><li><a href="contact.html">Contact</a></li></ul>
-			</nav>
+	<header>
+			<nav id="topnav" class="clearfix">
+						<a id="name" href="index.html">Name here</a>
+			<label for="toggle">Menu</label>
+			<input type="checkbox" id="toggle">
+			<ul id="mobilemenu"><li><a href="archive.html">Archive</a></li><li><a href="contact.html">Contact</a></li></ul>
+					</nav>
 			<nav id="gray">
-				<a href="archive.html">archive</a>
+					<a href="archive.html">archive</a>
 			</nav>
 			<nav id="yellow">
 				<a href="contact.html">contact</a>
 			</nav>
-		</header>
+	</header>
 	<section id="hero">
 		<h1>Hello</h1>
 		<h4>Please don't hesitate to get in touch! Whether you want to give feedback, discuss the latest recipe trends or to work with we, I'm here for you.</h4>
 	</section>
-	<article id="about" class="clearfix">
-		<img id="heroimage" src="images/emmiliia.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
-		<aside id="info" class="clearfix">
+	<article class="clearfix">
+		<img id="heroimage" src="images/shelf.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+		<aside class="sticky">
 			<h2>Contact</h2>
 			<p>Emmi-Liia Sjöholm<br>
 			Helsinki, Finland</p>
@@ -45,10 +46,32 @@
 			<p>A warm welcome!</p>
 		</div>
 	</article>
+	<a href="recipe.html">
+		<div id="previous" class="clearfix">
+			<div>
+				<img src="images/shelf.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			</div>
+			<div class="space">
+				<h3>Previously</h3>
+				<h2>Shelf article</h2>
+			</div>
+		</div>
+	</a>
+	<a href="recipe.html">
+		<div id="next" class="clearfix">
+			<div>
+				<img src="images/shelf.jpg" alt="The cover of the first issue. A girl with apple galette." title="The cover of the first issue">
+			</div>
+			<div class="space">
+				<h3>Up next</h3>
+				<h2>Cups article</h2>
+			</div>
+		</div>
+	</a>
 	<div class="clearfix"></div>
 	<footer>
 		<div>
-			<a href="mailto:hello@emmi-liia.com" target="blank">hello@emmi-liia.com</a>
+			<h3><a href="mailto:hello@emmi-liia.com" target="blank">hello@emmi-liia.com</a></h3>
 		</div>
 		<div>
 			<a href="http://www.instagram.com/emmi.liia.sjoholm" target="blank"><i class="fa fa-instagram"></i></a>
@@ -58,10 +81,39 @@
 			<a href="https://www.linkedin.com/emmiliiasjoholm" target="blank"><i class="fa fa-linkedin"></i></a>
 		</div>
 		<div>
-			<p id="copyright">All rights reserved. &copy; 2015 Emmi-Liia Sjöholm<p>
+			<h3><p id="copyright">All rights reserved. &copy; 2015 Emmi-Liia Sjöholm<p></h3>
 		</div>
 	</footer>
 	</div>
 </div>
+	<!-- <script type="text/javascript" src="sticky.js"></script> -->
+	<script type="text/javascript">// create a clone of the menu, 
+// which we'll only reveal when the user scrolls past a certain position
+$('.sticky').addClass('original').clone().insertAfter('.sticky').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','5%').css('z-index','500').removeClass('original').hide();
+
+scrollIntervalID = setInterval(stickIt, 10);
+
+function stickIt() {
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;               
+
+    // if we scroll past the position of the original menu,
+    // only show the cloned, sticky element
+  if ($(window).scrollTop() >= (orgElementTop)) {
+
+    // the cloned menu should have same left position and width as original element    
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;  
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('relative',leftOrgElement+'px').css('top','-8%').css('relative','4%').css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    
+    // if we're not scrolled past the menu, only show the original menu.
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
+}</script>
 </body>
 </html>
