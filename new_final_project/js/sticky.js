@@ -16,9 +16,8 @@ function stickIt() {
 
     orgElement = $('.original');
     coordsOrgElement = orgElement.offset();
-    leftOrgElement = coordsOrgElement.left;  
     widthOrgElement = orgElement.css('width');
-    $('.cloned').css('relative',leftOrgElement+'px').css('top','-8%').css('relative','4%').css('width',widthOrgElement).show();
+    $('.cloned').css('top','-8%').css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
   } else {
     

@@ -15,9 +15,8 @@ function stickIt() {
     // the cloned menu should have same left position and width as original element    
     orgElement = $('.original');
     coordsOrgElement = orgElement.offset();
-    leftOrgElement = coordsOrgElement.left;  
     widthOrgElement = orgElement.css('width');
-    $('.cloned').css('relative',leftOrgElement+'px').css('relative','4%').css('width',widthOrgElement).show();
+    $('.cloned').css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
   } else {
     
