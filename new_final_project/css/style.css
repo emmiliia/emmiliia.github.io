@@ -136,14 +136,14 @@ aside {
 	margin-bottom: 5%;
 }
 #previous img {
-	width: 15em;
+	width: 10em;
 	float: left;
 	margin: 0;
 }
 #next img {
-	width: 15em;
+	width: 10em;
 	float: right;
-	margin: 0;
+		margin: 0;
 }
 #next:hover {
 	background: #ededed;
@@ -152,7 +152,7 @@ aside {
 	background: #ededed;
 }
 .space {
-	padding: 4em 2em;
+	padding: 2em;
 }
 footer {
 	border-top: 1px solid #ededed;
@@ -276,19 +276,17 @@ label {
 	padding: 2.5%;
 	float: left;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
+	.space {
+	padding: 1em;
+	}
 	#previous img {
-	width: 10em;
-	float: left;
+	width: 8em;
 	margin: 0;
 	}
 	#next img {
-	width: 10em;
-	float: right;
-	margin: 0
-	}
-	.space {
-	padding: 2em;
+	width: 8em;
+	margin: 0;
 	}
 }
 @media only screen and (max-width: 1100px) {
@@ -297,6 +295,15 @@ label {
 	width: 50%;
 	padding: 2.5%;
 	float: left;
+	}
+	#previous img {
+	width: 100%;
+	float: none;
+	}
+	#next img {
+	width: 100%;
+	float: none;
+	}
 }
 @media only screen and (max-width: 950px) {
 	#archivebox article{
@@ -323,17 +330,6 @@ label {
 	text-align: left;
 	width: 80%;
 	margin: 0 auto;
-	}
-	#previous img {
-	width: 8em;
-	float: left;
-	}
-	#next img {
-	width: 8em;
-	float: right;
-	}
-	.space {
-	padding: 1em;
 	}
 }
 @media only screen and (max-width: 700px) {
@@ -379,17 +375,6 @@ label {
 	}
 	#content {
 	width: 90%;
-	}
-	#previous img {
-	width: 100%;
-	float: none;
-	}
-	#next img {
-	width: 100%;
-	float: none;
-	}
-	.space {
-	padding: 2em;
 	}
 }
 @media only screen and (max-width: 600px) {
