@@ -12,7 +12,8 @@ function stickIt() {
     // only show the cloned, sticky element
   if ($(window).scrollTop() >= (orgElementTop)) {
 
-    // the cloned menu should have same left position and width as original element    
+    // the cloned menu should have same left position and width as original element
+
     orgElement = $('.original');
     coordsOrgElement = orgElement.offset();
     leftOrgElement = coordsOrgElement.left;  
