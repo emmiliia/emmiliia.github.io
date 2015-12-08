@@ -14,10 +14,6 @@ body {
 nav a {
 	display: block;
 }
-#logo {
-	width: 200px;
-	margin: 0;
-}
 p {
 	font-size: 1em;
 	margin-bottom: 2em;
@@ -240,7 +236,6 @@ label {
 }
 #topnav {
 	background-color: #fff;
-	position: relative;
 	width: 100%;
 	top: 0;
 	margin: auto;
