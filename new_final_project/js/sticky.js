@@ -25,4 +25,8 @@ function stickIt() {
     $('.cloned').hide();
     $('.original').css('visibility','visible');
   }
+  if ($(window).width() < 950) { 
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
 }

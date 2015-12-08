@@ -319,10 +319,6 @@ label {
 	margin: 0 auto;
 	text-align: center;
 	}
-	.sticky {
-	visibility: hidden;
-	transition: 2s;
-	}
 	#info {
 	text-align: left;
 	width: 80%;
