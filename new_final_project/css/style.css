@@ -352,6 +352,7 @@ label {
 	}
 	#toggle:checked + #mobilemenu {
 		display: block;
+		visibility: visible;
 	}
 	#gray {
     display: none;
