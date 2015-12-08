@@ -315,11 +315,13 @@ label {
 	}
 	aside {
 	float: none;
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 	text-align: center;
 	}
 	.sticky {
+	visibility: hidden;
+	transition: 2s;
 	}
 	#info {
 	text-align: left;

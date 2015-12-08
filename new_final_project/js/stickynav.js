@@ -19,7 +19,6 @@ function stickIt() {
     $('.cloned').css('width',widthOrgElement).show();
     $('.original').css('visibility','hidden');
   } else {
-    
     // if we're not scrolled past the menu, only show the original menu.
     $('.cloned').hide();
     $('.original').css('visibility','visible');
