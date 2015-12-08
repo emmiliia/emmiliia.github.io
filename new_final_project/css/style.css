@@ -95,7 +95,7 @@ img {
 }
 article div {
 	width: 60%;
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-bottom: 5%;
 	float: left;
 	text-align: justify;
@@ -104,7 +104,7 @@ aside {
 	text-align: left;
 	line-height: 1.5em;
 	float: left;
-	width: 35%;
+	width: 30%;
 }
 #quote {
 	font-style: italic;
