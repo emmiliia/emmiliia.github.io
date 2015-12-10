@@ -15,7 +15,7 @@ nav a {
 	display: block;
 }
 #logo {
-	width: 15em;
+	width: 18em;
 	margin: 0;
 }
 p {
@@ -39,7 +39,7 @@ h3 + h4 {
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 3.5em;
+	font-size: 3em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
