@@ -386,6 +386,9 @@ label {
 	float: left;
 }
 @media only screen and (max-width: 564px) {
+	#logo {
+	width: 15em;	
+	}
 	h1 {
 	font-size: 3em;
 	}
