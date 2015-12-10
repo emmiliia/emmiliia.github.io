@@ -14,6 +14,10 @@ body {
 nav a {
 	display: block;
 }
+#logo {
+	width: 15em;
+	margin: 0;
+}
 p {
 	font-size: 1em;
 	margin-bottom: 2em;
@@ -65,7 +69,7 @@ h4 {
 a {
 	color: #353434;
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 p a:hover {
 border-bottom: 1px solid #343535
