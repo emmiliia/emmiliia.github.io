@@ -233,6 +233,8 @@ label {
 	transform: translateY(-100%) rotate (90deg);
 }
 #topnav {
+
+	font-size: 1.2em;
 	background-color: #fff;
 	width: 100%;
 	top: 0;
