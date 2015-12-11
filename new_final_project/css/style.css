@@ -396,7 +396,7 @@ label {
 	width: 15em;	
 	}
 	h1 {
-	font-size: 3em;
+	font-size: 2em;
 	}
 	#archivebox {
 	float: none;
@@ -421,10 +421,5 @@ label {
 	}
 	#next {
 	width: 50%;
-	}
-}
-@media only screen and (max-width: 399px) {
-	h1 {
-		font-size: 2.5em;
 	}
 }	
