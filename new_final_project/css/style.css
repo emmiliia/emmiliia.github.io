@@ -28,9 +28,6 @@ h1 + h4 {
 h3 + h2 {
 	margin-top: 1%;
 }
-h2 + p {
-	margin-top: 2em;
-}
 h1 + h3 {
 	margin-top: 5%;
 }
@@ -51,6 +48,7 @@ h2 {
 	font-size: 1em;
 	line-height: 1em;
 	letter-spacing: 0.2em;
+	margin-bottom: 2em;
 	text-transform: uppercase;
 }
 h3 {
