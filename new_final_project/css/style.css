@@ -158,6 +158,11 @@ aside {
 .space {
 	padding: 2em;
 }
+#insta {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding: 5% 0;
+}
 footer {
 	border-top: 1px solid #ededed;
 	width: 100%;
