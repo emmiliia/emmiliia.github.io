@@ -96,8 +96,8 @@ ul {
 }
 img {
 	width: 100%;
-	margin-bottom: 2em;
 	transition: 0.2s;
+	margin-bottom: 2em;
 }
 #hero {
 	padding: 10%;
