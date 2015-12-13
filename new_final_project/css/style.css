@@ -61,7 +61,7 @@ h2 {
 h3 {
 	font-family: "futura-pt", sans-serif;
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 300;
 }	
 h4 {
 	font-size: 1.2em;
@@ -82,7 +82,7 @@ a:hover{
 p a {
 	font-family: "futura-pt", sans-serif;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 300;
 	font-size: 0.8em;
 	border-bottom: 1px solid #343535;
 }
