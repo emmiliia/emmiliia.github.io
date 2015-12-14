@@ -308,14 +308,6 @@ label {
 	h4 {
 	width: 90%;
 	}
-	#previous img {
-	width: 100%;
-	float: none;
-	}
-	#next img {
-	width: 100%;
-	float: none;
-	}
 }
 @media only screen and (max-width: 950px) {
 	#archivebox article{
@@ -385,6 +377,14 @@ label {
 	}
 	#content {
 	width: 90%;
+	}
+		#previous img {
+	width: 100%;
+	float: none;
+	}
+	#next img {
+	width: 100%;
+	float: none;
 	}
 }
 @media only screen and (max-width: 600px) {
