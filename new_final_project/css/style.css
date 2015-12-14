@@ -31,12 +31,6 @@ h1 + h4 {
 h3 + h2 {
 	margin-top: 0.5em;
 }
-h1 + h3 {
-	margin-top: 1em;
-}
-h3 + h4 {
-	margin-top: 2em;
-}
 h1 {
 	font-family: "futura-pt", sans-serif;
 	font-size: 2em;
@@ -44,6 +38,8 @@ h1 {
 	line-height: 1em;
 	letter-spacing: 0.25em;
 	text-transform: uppercase;
+	width: 70%;
+	margin: 0 auto; 
 }
 h2 {
 	font-family: "futura-pt", sans-serif;
@@ -305,6 +301,13 @@ label {
 	padding: 2.5%;
 	float: left;
 	}
+	h1 {
+	width: 80%;
+	margin: 0 auto;	
+	}
+	h4 {
+	width: 90%;
+	}
 	#previous img {
 	width: 100%;
 	float: none;
@@ -319,6 +322,9 @@ label {
 	float: none;
 	width: 80%;
 	margin: 0 auto;
+	}
+	h1 {
+	width: 100%
 	}
 	h4 {
 	width: 100%;
@@ -388,6 +394,9 @@ label {
 	padding: 2.5%;
 	float: left;
 }
+	#hero {
+	padding: 10% 5%;
+	}
 @media only screen and (max-width: 564px) {
 	#logo {
 	width: 15em;	
