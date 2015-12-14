@@ -137,12 +137,12 @@ aside {
 #previous img {
 	width: 10em;
 	float: left;
-	margin: 0;
+	margin-bottom: 0;
 }
 #next img {
 	width: 10em;
 	float: right;
-	margin: 0;
+	margin-bottom: 0;
 }
 #next:hover {
 	background: #ededed;
@@ -333,6 +333,9 @@ label {
 	margin: 0 auto;
 	text-align: center;
 	}
+	.space {
+	padding: 1em;
+	}
 }
 @media only screen and (max-width: 700px) {
 	h4 {
@@ -378,7 +381,7 @@ label {
 	#content {
 	width: 90%;
 	}
-		#previous img {
+	#previous img {
 	width: 100%;
 	float: none;
 	}
