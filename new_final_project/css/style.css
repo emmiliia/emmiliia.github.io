@@ -36,7 +36,7 @@ h1 {
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 1em;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.15em;
 	text-transform: uppercase;
 	width: 70%;
 	margin: 0 auto; 
@@ -46,7 +46,7 @@ h2 {
 	font-weight: 700;
 	font-size: 1.2em;
 	line-height: 1em;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.15em;
 	margin-bottom: 2em;
 	text-transform: uppercase;
 	font-weight: 600;
