@@ -52,7 +52,8 @@ h2 {
 	font-weight: 600;
 }
 h3 {
-	font-weight: 400;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 300;
 	font-size: 0.8em;
 	text-transform: uppercase;
 }	
@@ -170,6 +171,7 @@ label {
 	padding-bottom: 1em;
 	font-family: "futura-pt", sans-serif;
 	font-weight: 300;
+	text-transform: uppercase;
 }
 #toggle {
 	display: none;
