@@ -111,14 +111,6 @@ aside {
 	font-style: italic;
 	font-size: 1.2em;
 }
-#archivebox {
-	width: 100%;
-}
-#archivebox article {
-	width: 33.33%;
-	padding: 2.5%;
-	float: left;
-}
 #previous {
 	width: 50%;
 	float: left;
@@ -398,14 +390,6 @@ label {
 	}
 	h1 {
 	font-size: 2em;
-	}
-	#archivebox {
-	float: none;
-	}
-	#archivebox article {
-	float: none;
-	width: 100%;
-	margin: 0 auto;
 	}
 	article div {
 	width: 100%;
