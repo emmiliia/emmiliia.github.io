@@ -173,6 +173,13 @@ label {
 	font-weight: 300;
 	text-transform: uppercase;
 }
+#subscribe {
+	border-top: 1px solid #ededed;
+	width: 60%;
+	margin: 0 auto;
+	padding: 5% 0;
+}
+
 #toggle {
 	display: none;
 }
@@ -382,10 +389,14 @@ label {
 	width: 100%;
 	padding: 2.5%;
 	float: left;
-}
+	}
 	#hero {
 	padding: 10% 5%;
 	}
+	#subscribe {
+	width: 80%;
+	}
+}
 @media only screen and (max-width: 564px) {
 	#logo {
 	width: 15em;	
