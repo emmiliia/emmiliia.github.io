@@ -175,11 +175,10 @@ label {
 }
 #subscribe {
 	border-top: 1px solid #ededed;
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
-	padding: 5% 0;
+	padding: 5% 20%;
 }
-
 #toggle {
 	display: none;
 }
@@ -394,7 +393,7 @@ label {
 	padding: 10% 5%;
 	}
 	#subscribe {
-	width: 80%;
+	padding: 5% 2%;
 	}
 }
 @media only screen and (max-width: 564px) {
