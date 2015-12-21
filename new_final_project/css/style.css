@@ -199,7 +199,7 @@ label {
     height: 100%;
     z-index: 0;
 }
-#gray a {
+#gray p {
 	font-size: 1em;
 	color: #e8e5c8;
 	text-transform: uppercase;
@@ -223,7 +223,7 @@ label {
     height: 100%;
     z-index: 0;
 }
-#yellow a {
+#yellow p {
 	font-size: 1em;
 	color: #353434;
 	text-transform: uppercase;
