@@ -68,9 +68,6 @@ h4 {
 	margin: 0 auto;
 	width: 75%;
 }
-span {
-	text-transform: uppercase;
-}
 a {
 	color: #343535;
 	text-decoration: none;
@@ -105,7 +102,7 @@ article div {
 	margin-left: 10%;
 	margin-bottom: 5%;
 	float: left;
-	text-align: justify;
+	text-align: left;
 }
 aside {
 	text-align: left;
