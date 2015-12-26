@@ -61,7 +61,7 @@ h3 {
 	text-transform: uppercase;
 }	
 h4 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 400;
 	letter-spacing: 0.075em;
 	line-height: 1.5;
@@ -109,7 +109,7 @@ article div {
 }
 aside {
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1.5em;
 	float: left;
 	width: 30%;
@@ -336,9 +336,6 @@ label {
 	}
 }
 @media only screen and (max-width: 700px) {
-	h4 {
-		font-size: 1em;
-	}
 	nav a {
 		font-size: 1em;
 	}
