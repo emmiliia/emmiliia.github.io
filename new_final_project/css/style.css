@@ -320,7 +320,6 @@ label {
 	width: 100%;
 	margin: 0 auto;
 	float: none;
-	text-align: justify;
 	}
 	aside {
 	float: none;
@@ -409,7 +408,6 @@ label {
 	article div {
 	width: 100%;
 	float: none;
-	text-align: justify;
 	}
 	#info {
 	text-align: left;
