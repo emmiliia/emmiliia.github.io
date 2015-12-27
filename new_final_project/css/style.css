@@ -103,7 +103,6 @@ article div {
 	margin-bottom: 5%;
 	float: left;
 	text-align: left;
-	padding-right: 2.5%;
 }
 aside {
 	text-align: left;
@@ -111,7 +110,6 @@ aside {
 	line-height: 1.5em;
 	float: left;
 	width: 30%;
-	padding-left: 2.5%;
 }
 #quote {
 	font-style: italic;
