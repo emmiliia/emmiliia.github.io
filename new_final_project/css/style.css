@@ -41,13 +41,13 @@ h1 {
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-	width: 70%;
+	width: 80%;
 	margin: 0 auto; 
 }
 h2 {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
-	font-size: 1.2em;
+	font-size: 1em;
 	line-height: 1em;
 	letter-spacing: 0.15em;
 	margin-bottom: 2em;
@@ -297,11 +297,11 @@ label {
 	float: left;
 	}
 	h1 {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;	
 	}
 	h4 {
-	width: 90%;
+	width: 100%;
 	}
 }
 @media only screen and (max-width: 950px) {
@@ -401,9 +401,6 @@ label {
 @media only screen and (max-width: 564px) {
 	#logo {
 	width: 15em;	
-	}
-	h1 {
-	font-size: 2em;
 	}
 	article div {
 	width: 100%;
