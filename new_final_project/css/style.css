@@ -86,6 +86,12 @@ p a {
 a:hover img {
 	opacity: 0.7;
 }
+.dropcap {
+	float: left; 
+	font-size: 5.32em;
+	line-height: 0.5em;
+	margin: 0.172em 0.0940em 0 0;
+}
 ul {
 	list-style: none;
 }
