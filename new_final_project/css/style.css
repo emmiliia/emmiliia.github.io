@@ -103,6 +103,9 @@ img {
 #chapter {
 	border-top: 1px solid #ededed;
 }
+.grid-item p {
+	font-size: 0.8em;
+}
 article div {
 	width: 60%;
 	margin-left: 10%;
