@@ -111,20 +111,19 @@ article div {
 	text-align: justify;
 }
 aside {
-	font-family: "futura-pt", sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
 	text-align: left;
-	font-size: 1em;
 	line-height: 1.5em;
 	float: left;
 	width: 30%;
 }
 #quote {
-	font-family: "adobe-caslon-pro", serif;
 	font-style: italic;
-	font-weight: 400;
 	font-size: 1.2em;
+}
+#recipe {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 #previous {
 	width: 50%;
