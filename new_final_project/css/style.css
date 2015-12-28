@@ -98,8 +98,10 @@ img {
 	font-style: italic;
 	padding: 5%;
 }
-#hero {
+#hero, #chapter {
 	padding: 10%;
+}
+#chapter {
 	border-top: 1px solid #ededed;
 }
 article div {
