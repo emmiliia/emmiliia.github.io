@@ -94,8 +94,12 @@ img {
 	transition: 0.2s;
 	margin-bottom: 2em;
 }
+#about {
+	font-style: italic;
+}
 #hero {
 	padding: 10%;
+	border-top: 1px solid #ededed;
 }
 article div {
 	width: 60%;
