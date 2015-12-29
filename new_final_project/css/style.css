@@ -69,7 +69,6 @@ h4 {
 	letter-spacing: 0.07em;
 	margin: 0 auto;
 	width: 75%;
-	margin-bottom: 5%;
 }
 a {
 	color: #343535;
@@ -99,7 +98,7 @@ img {
 }
 #about {
 	font-style: italic;
-	padding-top: 5%;
+	padding: 5% 10%;
 }
 #hero, #chapter {
 	padding: 10%;
@@ -108,10 +107,17 @@ img {
 	border-top: 1px solid #ededed;
 }
 #line {
-	width: 15em;
-	border-top: 1px solid #ededed;
-	padding-bottom: 5%;
+	width: 12em;
+	border-bottom: 1px solid #ededed;
+	padding-top: 5%;
 	margin: 0 auto;
+}
+.credit {
+	font-size: 0.8em;
+	margin: 0;
+}
+.credit:first-of-type {
+	padding-top: 5%;
 }
 article div {
 	width: 60%;
