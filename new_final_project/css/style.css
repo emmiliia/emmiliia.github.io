@@ -34,6 +34,9 @@ h3 + h2 {
 h4 + h3 {
 	margin-top: 2em;
 }
+h2 + p {
+	margin-top: 1em;
+}
 h1 {
 	font-family: "futura-pt", sans-serif;
 	font-size: 2em;
@@ -292,9 +295,6 @@ label {
 	width: 33.33%;
 	padding: 2.5%;
 	float: left;
-}
-.grid-item p{
-	padding: 1em;
 }
 @media only screen and (max-width: 1250px) {
 	.space {
