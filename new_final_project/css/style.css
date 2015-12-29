@@ -121,9 +121,8 @@ aside {
 	font-size: 1.2em;
 }
 #recipe {
-	font-family: "futura-pt", sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
+	font-size: 1em;
+	text-transform: uppercase; 
 }
 #previous {
 	width: 50%;
