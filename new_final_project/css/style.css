@@ -69,6 +69,7 @@ h4 {
 	letter-spacing: 0.07em;
 	margin: 0 auto;
 	width: 75%;
+	margin-bottom: 5%;
 }
 a {
 	color: #343535;
@@ -98,13 +99,19 @@ img {
 }
 #about {
 	font-style: italic;
-	padding: 5%;
+	padding-top: 5%;
 }
 #hero, #chapter {
 	padding: 10%;
 }
 #chapter {
 	border-top: 1px solid #ededed;
+}
+#line {
+	width: 15em;
+	border-top: 1px solid #ededed;
+	padding-bottom: 5%;
+	margin: 0 auto;
 }
 article div {
 	width: 60%;
