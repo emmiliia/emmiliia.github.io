@@ -208,6 +208,10 @@ aside {
 	margin: 1em 0;
 	font-size: 0.8em;
 }
+.comment {
+	border-top: 1px solid #ededed;
+	padding-top: 5%;
+}
 footer {
 	border-top: 1px solid #ededed;
 	width: 100%;
