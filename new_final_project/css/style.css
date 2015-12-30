@@ -189,25 +189,6 @@ aside {
 	text-align: left;
 	font-size: 0.8em;
 }
-.button1 {
-	padding: 1em;
-	border: 1px solid #ededed;
-	margin: 1em 0;
-	font-size: 0.8em;
-}
-.button2 {
-	padding: 1em;
-	height: 20em;
-	border: 1px solid #ededed;
-	margin: 1em 0;
-	font-size: 0.8em;
-}
-.button3 {
-	padding: 1em;
-	background-color: #ededed;
-	margin: 1em 0;
-	font-size: 0.8em;
-}
 .comment {
 	border-top: 1px solid #ededed;
 	padding-top: 5%;
