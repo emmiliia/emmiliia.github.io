@@ -73,6 +73,13 @@ h4 {
 	margin: 0 auto;
 	width: 75%;
 }
+h5 {
+	font-size: 0.8em;
+	font-weight: 400;
+}
+h5:first-of-type {
+	padding-top: 5%;
+}
 a {
 	color: #343535;
 	text-decoration: none;
@@ -114,13 +121,6 @@ img {
 	border-bottom: 1px solid #ededed;
 	padding-top: 5%;
 	margin: 0 auto;
-}
-.credit {
-	font-size: 0.8em;
-	margin: 0;
-}
-.credit:first-of-type {
-	padding-top: 5%;
 }
 article div {
 	width: 60%;
@@ -184,10 +184,9 @@ aside {
 	padding: 5% 0;
 }
 #share {
-	padding-top: 5%;
 	border-top: 1px solid #ededed;
 	text-align: left;
-	font-size: 0.8em;
+	padding-bottom: 5%;
 }
 .comment {
 	border-top: 1px solid #ededed;
