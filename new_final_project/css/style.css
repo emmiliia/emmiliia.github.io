@@ -85,7 +85,7 @@ a {
 	transition: 0.1s;
 }
 a:hover{
-	color: #857c78;
+	color: #b3a6a0;
 }
 p a {
 	font-family: "futura-pt", sans-serif;
@@ -197,6 +197,26 @@ aside {
 .comment {
 	border-top: 1px solid #ededed;
 	padding-top: 5%;
+}
+.button1 {
+	width: 20em;
+	border: 1px solid #ededed;
+	margin: 1em auto;
+	padding: 1em;
+}
+.button2 {
+	width: 20em;
+	background-color: #ededed;
+	margin: 0 auto;
+	padding: 1em;
+	margin-bottom: 5%;
+}
+.button2:hover {
+	background-color: #b3a6a0;
+}
+.button2 h3:hover {
+	color: #ededed;
+	transition: 0s;
 }
 footer {
 	border-top: 1px solid #ededed;
