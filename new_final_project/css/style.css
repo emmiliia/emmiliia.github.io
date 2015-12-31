@@ -213,10 +213,7 @@ aside {
 }
 .button2:hover {
 	background-color: #b3a6a0;
-}
-.button2 h3:hover {
 	color: #ededed;
-	transition: 0s;
 }
 footer {
 	border-top: 1px solid #ededed;
