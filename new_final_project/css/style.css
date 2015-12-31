@@ -376,7 +376,9 @@ label {
 	h4 {
 	width: 100%;
 	}
-		#previous img {
+}
+@media only screen and (max-width: 1050px) {
+	#previous img {
 	width: 100%;
 	float: none;
 	}
@@ -384,7 +386,6 @@ label {
 	width: 100%;
 	float: none;
 	}
-}
 @media only screen and (max-width: 950px) {
 	#archivebox article{
 	float: none;
