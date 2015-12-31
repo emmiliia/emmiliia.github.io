@@ -186,7 +186,14 @@ aside {
 #share {
 	border-top: 1px solid #ededed;
 	text-align: left;
+	line-height: 3em;
 	padding-bottom: 5%;
+}
+#share a {
+	padding: 0 1em;
+}
+#share a:last-of-type {
+	padding: 0;
 }
 .comment {
 	border-top: 1px solid #ededed;
