@@ -85,7 +85,7 @@ a {
 	transition: 0.1s;
 }
 a:hover{
-	color: #b3a6a0;
+	color: #c7c2be;
 }
 p a {
 	font-family: "futura-pt", sans-serif;
@@ -213,7 +213,7 @@ aside {
 	margin-bottom: 5%;
 }
 .button2:hover {
-	background-color: #b3a6a0;
+	background-color: #c7c2be;
 	color: #ededed;
 }
 footer {
