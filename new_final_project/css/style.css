@@ -135,7 +135,7 @@ aside {
 	width: 30%;
 	padding-bottom: 2.5%;
 }
-article div p::first-line {
+article div p::first-of-type {
 	font-family: "futura-pt", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
