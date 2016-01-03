@@ -109,10 +109,10 @@ img {
 	font-style: italic;
 	padding: 5% 10%;
 }
-#hero, #chapter {
+#hero, #edition {
 	padding: 10%;
 }
-#chapter {
+#edition {
 	border-top: 1px solid #ededed;
 }
 #line {
