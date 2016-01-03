@@ -66,16 +66,19 @@ h5 {
 	color: #fff;
 }
 #about {
-	background-color: #ededed;
+	background-color: #fff;
 	height: 100vh;
+	border: 20px solid #ededed;
 }
 #work {
-	background-color: #d6cece;
+	background-color: #fff;
 	height: 100vh;
+	border: 20px solid #d6cece;
 }
 #contact {
-	background-color: #black;
+	background-color: #fff;
 	height: 100vh;
+	border: 20px solid #a1afae;
 }
 img {
 	width: 100%;
