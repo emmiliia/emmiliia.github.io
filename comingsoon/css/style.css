@@ -1,0 +1,75 @@
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	color: #343535;
+	text-align: center;
+	font-family: "adobe-caslon-pro", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+}
+h1 + h4 {
+	margin-top: 2em;
+}
+h4 + a {
+	margin-top: 10em;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #e8e5c8;
+}
+#links {
+	margin-top: 5em;
+}
+h1 {
+	font-family: "futura-pt", sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 45vh;
+}
+h2 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1em;
+	letter-spacing: 0.1em;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}	
+h4 {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	margin: 0 auto;
+	width: 75%;
+}
+.icon {
+	font-size: 3em;
+}
+#first {
+	background-image: url("onherplate-4.jpg");
+	background-size: 100% auto;
+	height: 100vh;
+	border: 20px solid #fff;
+	color: #fff;
+}
+img {
+	width: 100%;
+}
