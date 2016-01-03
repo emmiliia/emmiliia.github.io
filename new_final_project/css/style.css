@@ -135,9 +135,9 @@ aside {
 	width: 30%;
 	padding-bottom: 2.5%;
 }
-article div p:first-child {
+article div p:first-line {
 	font-family: "futura-pt", sans-serif;
-	text-transform: uppercase;
+	font-variant: small-caps;
 	font-weight: 400;
 }
 #quote {
