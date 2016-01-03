@@ -135,14 +135,9 @@ aside {
 	width: 30%;
 	padding-bottom: 2.5%;
 }
-article div p::first-of-type {
-	font-family: "futura-pt", sans-serif;
-	text-transform: uppercase;
-	font-weight: 400;
-}
 #quote {
 	font-style: italic;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 #recipe {
 	font-size: 0.8em;
