@@ -14,9 +14,6 @@ body {
 h1 + h4 {
 	margin-top: 2em;
 }
-h4 + a {
-	margin-top: 10em;
-}
 a {
 	color: #fff;
 	padding: 0.5em;
@@ -25,7 +22,7 @@ a:hover {
 	color: #e8e5c8;
 }
 #links {
-	margin-top: 5em;
+	margin-top: 3em;
 }
 #spacer {
 	height: 30%;
