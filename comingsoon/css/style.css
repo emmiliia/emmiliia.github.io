@@ -19,6 +19,7 @@ h4 + a {
 }
 a {
 	color: #fff;
+	padding: 0.5em;
 }
 a:hover {
 	color: #e8e5c8;
