@@ -27,6 +27,12 @@ a:hover {
 #spacer {
 	height: 30%;
 }
+#line {
+	width: 12em;
+	border-bottom: 1px solid #ededed;
+	padding-top: 5%;
+	margin: 0 auto;
+}
 h1 {
 	font-family: "futura-pt", sans-serif;
 	font-size: 2em;
@@ -59,6 +65,13 @@ h4 {
 	letter-spacing: 0.05em;
 	margin: 0 auto;
 	width: 75%;
+}
+h5 {
+	font-size: 0.8em;
+	font-weight: 400;
+}
+h5:first-of-type {
+	padding-top: 5%;
 }
 .icon {
 	font-size: 3em;
