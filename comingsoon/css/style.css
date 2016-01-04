@@ -12,7 +12,7 @@ body {
 	letter-spacing: 0.5px;
 }
 h1 + h4 {
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 a {
 	color: #fff;
@@ -71,7 +71,7 @@ h4 {
 	background-attachment: fixed;
 	background-color: #2f2f2f;
 	height: 100vh;
-	border: 20px solid #fff;
+
 	color: #fff;
 }
 img {
