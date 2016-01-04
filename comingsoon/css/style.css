@@ -3,13 +3,21 @@
 	box-sizing:border-box;
 }
 body {
-	color: #343535;
+	color: #fff;
 	text-align: center;
 	font-family: "adobe-caslon-pro", serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 0.5px;
+	background-image: url("onherplate-4.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #2f2f2f;
 }
 h1 + h4 {
 	margin-top: 1.5em;
@@ -79,17 +87,7 @@ h5:first-of-type {
 .icon {
 	font-size: 3em;
 }
-#first {
-	background-image: url("onherplate-4.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-color: #2f2f2f;
-	height: 100vh;
+footer {
+	margin-bottom: 5em;
+}
 
-	color: #fff;
-}
-img {
-	width: 100%;
-}
