@@ -26,6 +26,9 @@ a:hover {
 #links {
 	margin-top: 5em;
 }
+#spacer {
+	height: 30%;
+}
 h1 {
 	font-family: "futura-pt", sans-serif;
 	font-size: 2em;
@@ -35,7 +38,6 @@ h1 {
 	text-transform: uppercase;
 	width: 80%;
 	margin: 0 auto;
-	padding-top: 45vh;
 }
 h2 {
 	font-family: "futura-pt", sans-serif;
@@ -65,7 +67,11 @@ h4 {
 }
 #first {
 	background-image: url("onherplate-4.jpg");
-	background-size: 100% auto;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #2f2f2f;
 	height: 100vh;
 	border: 20px solid #fff;
 	color: #fff;
