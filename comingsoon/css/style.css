@@ -32,9 +32,6 @@ a {
 a:hover {
 	color: #e8e5c8;
 }
-#links {
-	margin-top: 3em;
-}
 #spacer {
 	height: 30%;
 }
@@ -43,6 +40,9 @@ a:hover {
 	border-bottom: 1px solid #ededed;
 	padding-top: 5%;
 	margin: 0 auto;
+}
+#links {
+		padding: 1em 0.5em;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
@@ -88,6 +88,6 @@ h5:first-of-type {
 	font-size: 3em;
 }
 footer {
-	margin-bottom: 5em;
+	margin: 3em;
 }
 
