@@ -29,20 +29,31 @@ a {
 	color: #fff;
 	padding: 0.5em;
 }
+h4 + h5 {
+	margin-top: 2em;
+}
+a {
+	text-decoration: none;
+	transition: 0.1s;
+}
 a:hover {
 	color: #e8e5c8;
 }
 #spacer {
 	height: 30%;
 }
-#line {
-	width: 12em;
-	border-bottom: 1px solid #ededed;
-	padding-top: 5%;
-	margin: 0 auto;
-}
 #links {
 		padding: 1em 0.5em;
+}
+.button1 {
+	width: 25em;
+	border: 1px solid #ededed;
+	margin: 1em auto;
+	padding: 1em;
+} 
+.button1:hover {
+	background-color: #fff;
+	color: #343535;
 }
 h1 {
 	font-family: "futura-pt", sans-serif;
@@ -80,9 +91,6 @@ h4 {
 h5 {
 	font-size: 0.8em;
 	font-weight: 400;
-}
-h5:first-of-type {
-	padding-top: 5%;
 }
 .icon {
 	font-size: 3em;
