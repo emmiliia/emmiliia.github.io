@@ -40,7 +40,7 @@ a:hover {
 	color: #e8e5c8;
 }
 #spacer {
-	height: 30%;
+	height: 25%;
 }
 #links {
 		padding: 1em 0.5em;
@@ -96,6 +96,6 @@ h5 {
 	font-size: 3em;
 }
 footer {
-	margin: 3em;
+	margin: 1em 3em 3em 3em;
 }
 
