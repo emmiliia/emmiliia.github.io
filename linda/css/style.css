@@ -38,13 +38,9 @@ h4 {
 }
 h5 {
 	font-size: 1.5em;
-	font-style: italic;
+	font-family: "futura-pt", sans-serif;
 	width: 80%;
 	margin: 0 auto;
-}
-span {
-	text-transform: uppercase;
-	font-weight: 400;
 }
 h2 + h1 {
 	margin-top: 0.5em;
