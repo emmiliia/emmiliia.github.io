@@ -93,6 +93,13 @@ article div {
 article div p {
 	text-align: justify;
 }
+article div a {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 600;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #404040;
+}
 aside {
 	width: 25%;
 	float: left;
