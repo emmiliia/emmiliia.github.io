@@ -4,7 +4,7 @@
 }
 body {
 	margin: 5% 0%;
-	color: #222222;
+	color: #404040;
 	text-align: center;
 	font-family: "adobe-garamond-pro", serif;
 	font-size: 14px;
@@ -39,6 +39,7 @@ h4 {
 h5 {
 	font-size: 1.5em;
 	font-family: "futura-pt", sans-serif;
+	font-weight: 300;
 	width: 80%;
 	margin: 0 auto;
 }
