@@ -45,6 +45,9 @@ ul {
 p {
 	margin-top: 2em;
 }
+#hero {
+	margin-bottom: 5%;
+}
 img {
 	width: 100%;
 }
