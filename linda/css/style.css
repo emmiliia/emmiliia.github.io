@@ -3,6 +3,7 @@
 	box-sizing:border-box;
 }
 body {
+	margin-top: 5%;
 	color: #222222;
 	text-align: center;
 	font-family: "garamond-premier-pro", serif;
@@ -25,7 +26,7 @@ h2 {
 }
 h3 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -36,9 +37,7 @@ a {
 	font-style: none;
 }
 a:hover {
-	font-family: "futura-pt", sans-serif;
-	font-size: 1em;
-	text-transform: uppercase;
+
 }
 ul {
 	font-style: none;
@@ -49,9 +48,7 @@ p {
 img {
 	width: 100%;
 }
-nav {
-	display: block;
-	float: left;
+nav a{
 	text-transform: uppercase;
 }
 article div {
