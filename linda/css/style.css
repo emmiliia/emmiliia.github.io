@@ -42,6 +42,9 @@ h2 + h1 {
 h1 + h3 {
 	margin-top: 1em;
 }
+h3 + img {
+	margin-top: 2em;
+}
 img + img {
 	margin-top: 2em;
 }
@@ -79,6 +82,9 @@ article div p {
 aside {
 	width: 25%;
 	float: left;
+}
+aside h2 {
+	margin-top: 1em;
 }
 #wrapper {
 	width: 80%;
