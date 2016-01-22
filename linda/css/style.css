@@ -33,6 +33,12 @@ h3 {
 h4 {
 
 }
+h1 + nav {
+	margin-top: 2em;
+}
+img + img {
+	margin-top: 2em;
+}
 a {
 	font-style: none;
 }
@@ -46,13 +52,14 @@ p {
 	margin-top: 2em;
 }
 #hero {
-	margin-bottom: 5%;
+	margin: 5% 0%;
 }
 img {
 	width: 100%;
 }
 nav a{
 	text-transform: uppercase;
+	padding: 2em;
 }
 article div {
 	width: 70%;
