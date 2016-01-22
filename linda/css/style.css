@@ -37,10 +37,11 @@ h4 {
 
 }
 h5 {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: "futura-pt", sans-serif;
 	font-weight: 300;
-	width: 80%;
+	text-transform: uppercase;
+	width: 60%;
 	margin: 0 auto;
 }
 h2 + h1 {
