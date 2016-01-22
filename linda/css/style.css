@@ -41,6 +41,14 @@ nav {
 	float: left;
 	text-transform: uppercase;
 }
+article div {
+	width: 70%;
+	margin-right: 5%;
+	float: left;
+}
+aside {
+	width: 25%;
+}
 #wrapper {
 	max-width: 980px;
 }
