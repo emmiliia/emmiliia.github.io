@@ -37,7 +37,8 @@ ul {
 	font-style: none;
 }
 nav {
-
+	display: block;
+	float: left;
 }
 #wrapper {
 	max-width: 980px;
