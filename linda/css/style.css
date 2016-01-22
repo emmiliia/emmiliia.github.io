@@ -1,0 +1,50 @@
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	color: #222222;
+	text-align: center;
+	font-family: "adobe-caslon-pro", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+a {
+	font-style: none;
+}
+a:hover {
+	font-family: "futura-pt", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+ul {
+	font-style: none;
+}
+nav {
+
+}
+#wrapper {
+	max-width: 980px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
