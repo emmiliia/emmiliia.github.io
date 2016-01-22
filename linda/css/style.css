@@ -48,6 +48,9 @@ h3 + img {
 img + img {
 	margin-top: 2em;
 }
+p+ img {
+	margin-top: 2em;
+}
 a {
 	font-style: none;
 }
