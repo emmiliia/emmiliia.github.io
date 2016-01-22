@@ -39,6 +39,7 @@ ul {
 nav {
 	display: block;
 	float: left;
+	text-transform: uppercase;
 }
 #wrapper {
 	max-width: 980px;
