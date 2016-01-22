@@ -59,7 +59,8 @@ p+ img {
 	margin-top: 2em;
 }
 a {
-	font-style: none;
+	text-decoration: none;
+	color: #404040;
 }
 a:hover {
 
@@ -96,7 +97,7 @@ article div p {
 article div a {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 600;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	text-transform: uppercase;
 	border-bottom: 1px solid #404040;
 }
