@@ -17,9 +17,8 @@ body {
 }
 h1 {
 	font-family: "aw-conqueror-didot", serif;
-	text-transform: uppercase;
 	font-size: 2.5em;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: 0.1em;
 }
 h2 {
