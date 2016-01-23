@@ -16,7 +16,7 @@ body {
 	padding: 5%;
 }
 h1 {
-
+	font-family: "futura-pt", sans-serif;
 	text-transform: uppercase;
 	font-size: 2.5em;
 	font-weight: 400;
@@ -39,9 +39,8 @@ h4 {
 }
 h5 {
 	font-size: 1em;
-
+	font-style: italic;
 	font-weight: 300;
-
 	width: 60%;
 	margin: 0 auto;
 }
