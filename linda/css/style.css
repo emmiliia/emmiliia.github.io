@@ -124,7 +124,7 @@ aside h2 {
 	width: 100%;
 }
 .line {
-	width: 10em;
+	width: 5em;
 	margin: 5% auto;
 	border-top: 1px solid #bebebe;
 }
@@ -132,7 +132,7 @@ aside h2 {
 	display: block;
 	float: left;
 	width: 33.33%;
-	padding: 2.5%;
+	padding: 1.5%;
 }
 #wrapper {
 	width: 80%;
