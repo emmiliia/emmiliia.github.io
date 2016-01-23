@@ -68,6 +68,9 @@ img + img {
 p+ img {
 	margin-top: 2em;
 }
+h6 + img {
+		margin-top: 2em;
+}
 a {
 	text-decoration: none;
 	color: #222222;
