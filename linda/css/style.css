@@ -98,7 +98,8 @@ nav {
 }
 nav a{
 	text-transform: uppercase;
-	padding: 2em;
+	padding: 5em;
+	font-size: 0.8em;
 }
 article div {
 	width: 70%;
