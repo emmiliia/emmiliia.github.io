@@ -4,7 +4,7 @@
 }
 body {
 	margin: 5% 0%;
-	color: #404040;
+	color: #222222;
 	text-align: center;
 	font-family: "proxima-nova", sans-serif;
 	font-size: 14px;
@@ -63,7 +63,7 @@ p+ img {
 }
 a {
 	text-decoration: none;
-	color: #404040;
+	color: #222222;
 }
 a:hover {
 
@@ -83,7 +83,8 @@ img {
 }
 nav {
 	border-top: 1px solid #bebebe;
-	padding-top: 5%;
+	border-bottom: 1px solid #bebebe;
+	padding: 1% 0%;
 }
 nav a{
 	text-transform: uppercase;
