@@ -69,7 +69,7 @@ p+ img {
 	margin-top: 2em;
 }
 h6 + img {
-		margin-top: 2em;
+	margin-top: 5em;
 }
 a {
 	text-decoration: none;
@@ -136,6 +136,10 @@ aside h2 {
 	float: left;
 	width: 33.33%;
 	padding: 1.5%;
+	margin: 2em 0;
+}
+#row img {
+	margin-bottom: 2em;
 }
 #wrapper {
 	width: 80%;
