@@ -126,9 +126,9 @@ aside h2 {
 	width: 100%;
 }
 .line {
-	width: 5em;
+	width: 4em;
 	margin: 5% auto;
-	border-top: 1px solid #bebebe;
+	border-top: 3px solid #333333;
 }
 #row article {
 	display: block;
