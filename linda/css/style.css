@@ -6,8 +6,8 @@ body {
 	margin: 5% 0%;
 	color: #222222;
 	text-align: center;
-	font-family: "proxima-nova", sans-serif;
-	font-size: 14px;
+	font-family: "adobe-garamond-pro", serif;
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.5em;
 	letter-spacing: 0.5px;
@@ -83,7 +83,6 @@ ul {
 }
 p {
 	margin-top: 2em;
-	font-family: "proxima-nova", sans-serif;
 }
 #hero {
 	margin: 5% 0%;
