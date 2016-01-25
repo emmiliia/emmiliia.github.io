@@ -21,7 +21,6 @@ nav a {
 p {
 	font-size: 1em;
 	margin-bottom: 5%;
-	-webkit-font-smoothing: antialiased;
 }
 h3 + h1 {
 	margin-top: 0.3em;
