@@ -71,7 +71,7 @@ h4 {
 	letter-spacing: 0.1em;
 	margin: 0 auto;
 	width: 75%;
-	-webkit-font-smoothing: anitialiased;
+	-webkit-font-smoothing: antialiased;
 }
 h5 {
 	font-size: 0.8em;
@@ -130,7 +130,7 @@ article div {
 	text-align: justify;
 }
 article p {
-	-webkit-font-smoothing: anitialiased;
+	-webkit-font-smoothing: antialiased;
 }
 aside {
 	text-align: left;
