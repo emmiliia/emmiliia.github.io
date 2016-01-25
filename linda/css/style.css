@@ -4,13 +4,13 @@
 }
 body {
 	margin: 5% 0%;
-	color: #fff;
+	color: #404040;
 	text-align: center;
 	font-family: "adobe-garamond-pro", serif;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
-	background-color: #bebebe;
+	background-color: #fff;
 }
 #blogname {
 	padding: 5%;
@@ -108,7 +108,7 @@ article div {
 	margin-bottom: 5%;
 }
 article div p {
-	text-align: justify;
+
 }
 article div a {
 	font-weight: 600;
