@@ -130,6 +130,7 @@ article div {
 	text-align: justify;
 }
 article p {
+	-webkit-font-smoothing: antialiased;
 }
 aside {
 	text-align: left;
