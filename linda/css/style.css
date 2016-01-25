@@ -11,7 +11,6 @@ body {
 	line-height: 21px;
 	letter-spacing: 0.5px;
 	background-color: #f0f0f0;
-	-webkit-font-smoothing: antialiased;
 }
 #blogname {
 	padding: 5%;
@@ -45,6 +44,7 @@ h5 {
 	margin: 0 auto;
 	font-style: italic;
 	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
 }
 h6 {
 	font-family: "futura-pt", sans-serif;
@@ -83,6 +83,7 @@ ul {
 }
 p {
 	margin-top: 2em;
+	-webkit-font-smoothing: antialiased;
 }
 #hero {
 	margin: 5% 0%;
