@@ -130,7 +130,6 @@ article div {
 	text-align: justify;
 }
 article p {
-	-webkit-font-smoothing: antialiased;
 }
 aside {
 	text-align: left;
@@ -350,6 +349,9 @@ label {
 	padding: 2.5%;
 	float: left;
 }
+.grid-item p {
+	font-size: 16px;
+}
 @media only screen and (max-width: 1250px) {
 	.space {
 	padding: 1em;
@@ -367,7 +369,7 @@ label {
 	margin-bottom: 0;
 	}
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
 	.grid-sizer,
 	.grid-item {
 	width: 50%;
