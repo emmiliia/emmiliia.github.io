@@ -103,9 +103,9 @@ footer a {
 label {
 	color: #343535;
 	display: none;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding-bottom: 1em;
-	font-family: "futura-pt", sans-serif;
+	font-family: "futura-pt-con", sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -120,7 +120,8 @@ label {
 }
 #topnav {
 	font-size: 1.2em;
-	background-color: #fff;
+	background-color: #dad8d8;
+	color: #fff;
 	width: 100%;
 	top: 0;
 	margin: auto;
@@ -143,7 +144,6 @@ label {
 .grid {
 	width: 100%;
 	margin: 0 auto;
-	border-bottom: 0.5px solid #343535;
 }
 .grid-sizer,
 .grid-item {
