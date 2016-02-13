@@ -5,81 +5,360 @@
 body {
 	color: #343535;
 	text-align: center;
-	font-family: "adobe-caslon-pro", serif;
-	font-size: 16px;
+	font-family: "Courier New", monospace;
+	font-size: 17px;
 	font-weight: 400;
 	line-height: 1.5em;
 	letter-spacing: 0.5px;
 }
-h1 + h4,
-h1 + p {
-	margin-top: 2em;
+nav a {
+	display: block;
 }
-h4 + h3 {
-	margin-top: 10em;
+p {
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+p + p {
+	margin-top: 1.5em;
 }
 h1 {
-	font-family: "futura-pt", sans-serif;
+	font-family: "freight-display-pro", "Times New Roman", serif;
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 1em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	width: 80%;
-	margin: 0 auto;
-	padding-top: 45vh;
+	margin: 0 auto; 
 }
 h2 {
-	font-family: "futura-pt", sans-serif;
-	font-weight: 700;
+	font-family: "futura-pt-condensed", sans-serif;
+	font-weight: 400;
 	font-size: 1em;
 	line-height: 1em;
 	letter-spacing: 0.1em;
 	margin-bottom: 2em;
 	text-transform: uppercase;
 }
-h3 {
+a {
+	color: #343535;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a:hover{
+	color: #c7c2be;
+}
+p a {
 	font-family: "futura-pt", sans-serif;
-	font-weight: 400;
-	font-size: 0.7em;
 	text-transform: uppercase;
-}	
-h4 {
-	font-size: 1.2em;
-	font-weight: 400;
-	letter-spacing: 0.05em;
-	margin: 0 auto;
-	width: 75%;
-}
-h5 {
+	font-weight: 700;
 	font-size: 0.8em;
-	font-weight: 400;
+	border-bottom: 1px solid #343535;
 }
-.icon {
-	font-size: 3em;
+a:hover img {
+	opacity: 0.7;
 }
-#first {
-	background-image: url("onherplate-4.jpg");
-	background-size: 100% auto;
-	height: 100vh;
-	border: 20px solid #fff;
-	color: #fff;
-}
-#about {
-	background-color: #fff;
-	height: 100vh;
-	border: 20px solid #ededed;
-}
-#work {
-	background-color: #fff;
-	height: 100vh;
-	border: 20px solid #d6cece;
-}
-#contact {
-	background-color: #fff;
-	height: 100vh;
-	border: 20px solid #a1afae;
+ul {
+	list-style: none;
 }
 img {
 	width: 100%;
+	transition: 0.2s;
+	margin-bottom: 2em;
 }
+
+#insta {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding: 5% 0;
+}
+
+.button1 {
+	width: 20em;
+	border: 1px solid #ededed;
+	margin: 1em auto;
+	padding: 1em;
+}
+.button2 {
+	width: 20em;
+	background-color: #ededed;
+	margin: 0 auto;
+	padding: 1em;
+	margin-bottom: 5%;
+}
+.button2:hover {
+	background-color: #c7c2be;
+	color: #ededed;
+}
+footer {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0;
+	font-size: 1em;
+}
+footer div {
+	padding-top: 1em;
+}
+footer a {
+	padding: 1em;
+}
+label {
+	color: #343535;
+	display: none;
+	font-size: 1.2em;
+	padding-bottom: 1em;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#subscribe {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 10%;
+}
+#toggle {
+	display: none;
+}
+#mobilemenu {
+	display: none;
+	text-transform: uppercase;
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+#gray {
+    background-color: #353434;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
+    min-width: 60px;
+    height: 100%;
+    z-index: 0;
+}
+#gray p {
+	font-size: 1em;
+	color: #e8e5c8;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+    position: relative;
+    top:50%;
+    padding: 2em;
+    z-index: 5;
+    -webkit-transform: rotate(-90deg) translateX(-50%);
+    -moz-transform: rotate(-90deg) translateX(-50%);
+	-o-transform: rotate(-90deg) translateX(-50%);
+	transform: rotate(-90deg) translateX(-50%);
+}
+#yellow {
+    background-color: #e8e5c8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 5%;
+    min-width: 60px;
+    height: 100%;
+    z-index: 0;
+}
+#yellow p {
+	font-size: 1em;
+	color: #353434;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	padding: 2em;
+    position: relative;
+    top:50%;
+    z-index: 5;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+	-moz-transform: translateY(-100%) rotate(90deg);
+	-o-transform: translateY(-100%) rotate(90deg);
+	transform: translateY(-100%) rotate (90deg);
+}
+#topnav {
+	font-size: 1.2em;
+	background-color: #fff;
+	width: 100%;
+	top: 0;
+	margin: auto;
+	border-bottom: 1px solid #ededed;
+	z-index: 3;
+}
+#topnav a {
+	letter-spacing: .2em;
+	font-size: 1em;
+	padding: 1em;
+}
+#content {
+	max-width: 1000px;
+	width: 80%;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.grid {
+	width: 100%;
+	margin: 0 auto;
+}
+.grid-sizer,
+.grid-item {
+	width: 33.33%;
+	padding: 2.5%;
+	float: left;
+}
+.grid-item p {
+	font-size: 16px;
+}
+@media only screen and (max-width: 1250px) {
+	.space {
+	padding: 1em;
+	}
+}
+@media only screen and (max-width: 1150px) {
+#previous img {
+	width: 9em;
+	float: left;
+	margin-bottom: 0;
+	}
+#next img {
+	width: 9em;
+	float: right;
+	margin-bottom: 0;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.grid-sizer,
+	.grid-item {
+	width: 50%;
+	padding: 2.5%;
+	float: left;
+	}
+	h1 {
+	width: 100%;
+	margin: 0 auto;	
+	}
+	h4 {
+	width: 100%;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	#previous img {
+	width: 100%;
+	float: none;
+	}
+	#next img {
+	width: 100%;
+	float: none;
+	}
+@media only screen and (max-width: 950px) {
+	#archivebox article{
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	}
+	h1 {
+	width: 100%
+	}
+	h4 {
+	width: 100%;
+	}
+	article div {
+	width: 100%;
+	margin: 0 auto;
+	float: none;
+	}
+	aside {
+	float: none;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	}
+	.space {
+	padding: 1em;
+	}
+}
+@media only screen and (max-width: 700px) {
+	nav a {
+		font-size: 1em;
+	}
+	label {
+		display: block;
+	}
+	#toggle:checked + #mobilemenu {
+		display: block;
+		visibility: visible;
+	}
+	#gray {
+    display: none;
+	}
+	#yellow {
+    display: none;
+	}
+	#topnav {
+	background-color: #fff;
+	position: relative;
+	width: 100%;
+	}
+	#topnav a {
+	color: #343535;
+	top: 12%;
+    position: relative;
+    z-index: 5;
+    }
+	#wrapper {
+    background-color: #ffffff;
+    position: relative;
+    width:100%;
+    padding: 0;
+    padding-bottom: 5%;
+    margin: auto;
+    color:#333;
+    text-align:center;
+	}
+	#content {
+	width: 90%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	h4 {
+	width: 100%;
+	}
+	.grid-sizer,
+	.grid-item {
+	width: 100%;
+	padding: 2.5%;
+	float: left;
+	}
+	#hero {
+	padding: 10% 5%;
+	}
+	#subscribe {
+	padding: 5% 2%;
+	}
+}
+@media only screen and (max-width: 564px) {
+	#logo {
+	width: 15em;	
+	}
+	article div {
+	width: 100%;
+	float: none;
+	}
+	#info {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	}
+	#previous {
+	width: 50%;
+	}
+	#next {
+	width: 50%;
+	}
+}	
