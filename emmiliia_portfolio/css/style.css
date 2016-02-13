@@ -149,6 +149,7 @@ label {
 .grid {
 	width: 100%;
 	margin: 0 auto;
+	border-bottom: 0.5px solid #343535;
 }
 .grid-sizer,
 .grid-item {
