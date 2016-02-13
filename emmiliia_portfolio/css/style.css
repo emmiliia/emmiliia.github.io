@@ -132,11 +132,6 @@ label {
 	font-size: 1em;
 	padding: 1em;
 }
-#content {
-	width: 90%;
-	background-color: #fff;
-	margin: 0 auto;
-}
 .clearfix:after {
     visibility: hidden;
     display: block;
