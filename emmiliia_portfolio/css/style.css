@@ -64,13 +64,11 @@ img {
 	transition: 0.2s;
 	margin-bottom: 2em;
 }
-
 #insta {
 	border-top: 1px solid #ededed;
 	width: 100%;
 	padding: 5% 0;
 }
-
 .button1 {
 	width: 20em;
 	border: 1px solid #ededed;
@@ -124,54 +122,6 @@ label {
 	text-transform: uppercase;
 	padding-top: 1em;
 	font-size: 0.9em;
-}
-#gray {
-    background-color: #353434;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 5%;
-    min-width: 60px;
-    height: 100%;
-    z-index: 0;
-}
-#gray p {
-	font-size: 1em;
-	color: #e8e5c8;
-	text-transform: uppercase;
-	letter-spacing: .5em;
-    position: relative;
-    top:50%;
-    padding: 2em;
-    z-index: 5;
-    -webkit-transform: rotate(-90deg) translateX(-50%);
-    -moz-transform: rotate(-90deg) translateX(-50%);
-	-o-transform: rotate(-90deg) translateX(-50%);
-	transform: rotate(-90deg) translateX(-50%);
-}
-#yellow {
-    background-color: #e8e5c8;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 5%;
-    min-width: 60px;
-    height: 100%;
-    z-index: 0;
-}
-#yellow p {
-	font-size: 1em;
-	color: #353434;
-	text-transform: uppercase;
-	letter-spacing: .5em;
-	padding: 2em;
-    position: relative;
-    top:50%;
-    z-index: 5;
-    -webkit-transform: translateY(-100%) rotate(90deg);
-	-moz-transform: translateY(-100%) rotate(90deg);
-	-o-transform: translateY(-100%) rotate(90deg);
-	transform: translateY(-100%) rotate (90deg);
 }
 #topnav {
 	font-size: 1.2em;
