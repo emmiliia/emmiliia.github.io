@@ -162,28 +162,8 @@ label {
 .grid-sizer,
 .grid-item {
 	width: 33.33%;
-	padding: 2.5%;
+	padding: 1.5%;
 	float: left;
-}
-.grid-item p {
-	font-size: 16px;
-}
-@media only screen and (max-width: 1250px) {
-	.space {
-	padding: 1em;
-	}
-}
-@media only screen and (max-width: 1150px) {
-#previous img {
-	width: 9em;
-	float: left;
-	margin-bottom: 0;
-	}
-#next img {
-	width: 9em;
-	float: right;
-	margin-bottom: 0;
-	}
 }
 @media only screen and (max-width: 1100px) {
 	.grid-sizer,
