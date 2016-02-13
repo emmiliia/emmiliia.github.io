@@ -27,6 +27,9 @@ h1 + p {
 p + p {
 	margin-top: 1.5em;
 }
+p + h2 {
+	margin-top: 1em;
+}
 h1 {
 	font-family: "freight-display-pro", "Times New Roman", serif;
 	font-size: 3em;
