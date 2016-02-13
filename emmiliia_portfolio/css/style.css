@@ -110,12 +110,6 @@ label {
 	font-weight: 400;
 	text-transform: uppercase;
 }
-#subscribe {
-	border-top: 1px solid #ededed;
-	width: 100%;
-	margin: 0 auto;
-	padding: 5% 10%;
-}
 #toggle {
 	display: none;
 }
@@ -131,7 +125,7 @@ label {
 	width: 100%;
 	top: 0;
 	margin: auto;
-	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid #343535;
 	z-index: 3;
 }
 #topnav a {
