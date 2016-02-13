@@ -44,6 +44,10 @@ h2 {
 	text-transform: uppercase;
 	color: #ed5848;
 }
+p {
+	width: 80%;
+	margin: 0 auto;
+}
 a {
 	color: #343535;
 	text-decoration: none;
@@ -152,10 +156,6 @@ label {
 	float: left;
 }
 #content {
-	width: 80%;
-	margin: 0 auto;
-}
-.grid-item p {
 	width: 80%;
 	margin: 0 auto;
 }
