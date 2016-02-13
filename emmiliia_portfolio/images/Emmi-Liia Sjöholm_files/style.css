@@ -1,0 +1,176 @@
+* { margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	color: #343535;
+	text-align: center;
+	font-family: "Courier New", monospace;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	letter-spacing: 0.3px;
+}
+nav a {
+	display: block;
+}
+#name {
+	padding-top: 0em;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+h1 + p {
+	margin-top: 1.5em;
+}
+p + p {
+	margin-top: 1.5em;
+}
+p + h2 {
+	margin-top: 1em;
+}
+h1 {
+	font-family: "freight-display-pro", "Times New Roman", serif;
+	font-size: 3em;
+	font-weight: 700;
+	line-height: 1em;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+h2 {
+	font-family: "futura-pt-condensed", sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 1em;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	color: #ed5848;
+}
+p {
+	width: 80%;
+	margin: 0 auto;
+}
+a {
+	color: #343535;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a:hover{
+	color: #c7c2be;
+}
+a:hover img {
+	opacity: 0.7;
+}
+ul {
+	list-style: none;
+}
+img {
+	width: 100%;
+	transition: 0.2s;
+}
+#insta {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding: 5% 0;
+}
+.button1 {
+	width: 20em;
+	border: 1px solid #ededed;
+	margin: 1em auto;
+	padding: 1em;
+}
+.button2 {
+	width: 20em;
+	background-color: #ededed;
+	margin: 0 auto;
+	padding: 1em;
+	margin-bottom: 5%;
+}
+.button2:hover {
+	background-color: #c7c2be;
+	color: #ededed;
+}
+footer {
+	border-top: 1px solid #ededed;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0;
+	font-size: 1em;
+}
+footer div {
+	padding-top: 1em;
+}
+footer a {
+	padding: 1em;
+}
+label {
+	color: #343535;
+	display: none;
+	font-size: 1.3em;
+	padding-bottom: 1em;
+	font-family: "futura-pt-con", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#toggle {
+	display: none;
+}
+#mobilemenu {
+	display: none;
+	text-transform: uppercase;
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+#topnav {
+	background-color: #ededed;
+	width: 100%;
+	top: 0;
+	margin: auto;
+	z-index: 3;
+}
+#topnav a {
+	color: #fff;
+	letter-spacing: .2em;
+	font-size: 1em;
+	padding: 1em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.grid {
+	width: 100%;
+	margin: 0 auto;
+}
+.grid-sizer,
+.grid-item {
+	width: 33.33%;
+	padding: 0.5%;
+	float: left;
+}
+.grid-item-wide {
+	width: 66.66%;
+	padding: 0.5%;
+	float: left;
+}
+#content {
+	background-color: #fff; 
+	width: 80%;
+	margin: 0 auto;
+	padding: 0.5%;
+}
+#wrapper {
+	background-color: #ededed;
+}
+@media only screen and (max-width: 1100px) {
+	.grid-sizer,
+	.grid-item {
+	width: 50%;
+	padding: 2.5%;
+	float: left;
+	
