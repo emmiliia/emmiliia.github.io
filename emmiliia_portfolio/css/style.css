@@ -120,18 +120,17 @@ label {
 }
 #topnav {
 	font-size: 1.2em;
-	background-color: #dad8d8;
-	color: #fff;
+	background-color: #d8c3c0;
 	width: 100%;
 	top: 0;
 	margin: auto;
-	border-bottom: 0.5px solid #343535;
 	z-index: 3;
 }
 #topnav a {
 	letter-spacing: .2em;
 	font-size: 1em;
 	padding: 1em;
+	color: #fff;
 }
 .clearfix:after {
     visibility: hidden;
