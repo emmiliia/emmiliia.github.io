@@ -120,17 +120,17 @@ label {
 }
 #topnav {
 	font-size: 1.2em;
-	background-color: #d8c3c0;
+	background-color: #fff;
 	width: 100%;
 	top: 0;
 	margin: auto;
+	border-bottom: 1px solid #343535;
 	z-index: 3;
 }
 #topnav a {
 	letter-spacing: .2em;
 	font-size: 1em;
 	padding: 1em;
-	color: #fff;
 }
 .clearfix:after {
     visibility: hidden;
@@ -149,6 +149,10 @@ label {
 	width: 33.33%;
 	padding: 0.5%;
 	float: left;
+}
+#content {
+	width: 80%;
+	margin: 0 auto;
 }
 @media only screen and (max-width: 1100px) {
 	.grid-sizer,
