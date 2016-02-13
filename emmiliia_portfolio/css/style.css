@@ -162,9 +162,10 @@ label {
 	background-color: #fff; 
 	width: 80%;
 	margin: 0 auto;
+	padding: 0.5%;
 }
 #wrapper {
-	background-color: #b6c8c7;
+	background-color: #ededed;
 }
 @media only screen and (max-width: 1100px) {
 	.grid-sizer,
