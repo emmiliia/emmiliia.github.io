@@ -29,7 +29,6 @@ h1 {
 	font-size: 2.5em;
 	font-weight: 700;
 	line-height: 1em;
-	letter-spacing: 0.05em;
 	margin: 0 auto; 
 }
 h2 {
@@ -40,7 +39,7 @@ h2 {
 	letter-spacing: 0.05em;
 	margin-bottom: 2em;
 	text-transform: uppercase;
-	color: #ededeb;
+	color: #D1504C;
 }
 a {
 	color: #343535;
