@@ -123,14 +123,14 @@ label {
 	font-size: 0.9em;
 }
 #topnav {
-	background-color: #fff;
+	background-color: #ededed;
 	width: 100%;
 	top: 0;
 	margin: auto;
-	border-bottom: 1px solid #343535;
 	z-index: 3;
 }
 #topnav a {
+	color: #fff;
 	letter-spacing: .2em;
 	font-size: 1em;
 	padding: 1em;
