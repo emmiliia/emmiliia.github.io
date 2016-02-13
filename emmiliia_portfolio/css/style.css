@@ -34,7 +34,7 @@ h1 {
 }
 h2 {
 	font-family: "futura-pt-condensed", sans-serif;
-	font-weight: 800;
+	font-weight: 500;
 	font-size: 1em;
 	line-height: 1em;
 	letter-spacing: 0.05em;
@@ -162,7 +162,7 @@ label {
 .grid-sizer,
 .grid-item {
 	width: 33.33%;
-	padding: 1.5%;
+	padding: 0.5%;
 	float: left;
 }
 @media only screen and (max-width: 1100px) {
