@@ -3,7 +3,7 @@
 	box-sizing:border-box;
 }
 body {
-	color: #343535;
+	color: #162544;
 	text-align: center;
 	font-family: "Courier New", monospace;
 	font-size: 14px;
@@ -45,19 +45,19 @@ h2 {
 	line-height: 1em;
 	margin-bottom: 2em;
 	text-transform: uppercase;
-	color: #ed5848;
+	color: #285a5b;
 }
 p {
 	width: 80%;
 	margin: 0 auto;
 }
 a {
-	color: #343535;
+	color: #162544;
 	text-decoration: none;
 	transition: 0.1s;
 }
 a:hover{
-	color: #c7c2be;
+	color: #d5a419;
 }
 a:hover img {
 	opacity: 0.7;
