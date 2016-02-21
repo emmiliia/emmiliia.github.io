@@ -313,6 +313,7 @@ label {
 	margin: auto;
 	border-bottom: 1px solid #ededed;
 	z-index: 3;
+	opacity: 0.97;
 }
 #topnav a {
 	letter-spacing: .2em;
